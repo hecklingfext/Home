@@ -1,0 +1,67 @@
+# -- Conky settings -- #
+background no
+#update_interval 1
+update_interval 2
+display :0.1 
+#alignment top_left
+
+cpu_avg_samples 2
+net_avg_samples 2
+ 
+override_utf8_locale yes
+ 
+double_buffer yes
+no_buffers yes
+ 
+text_buffer_size 2048
+imlib_cache_size 0
+ 
+# -- Window specifications -- #
+ 
+own_window yes
+own_window_title conky_clock
+own_window_type desktop
+#own_window_type root
+own_window_transparent yes
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#set conky to be below all other applications
+ 
+border_inner_margin 0
+border_outer_margin 0
+ 
+minimum_size 1024 1280
+#maximum_width 1000
+ 
+#alignment tm
+alignment tr
+gap_x 0
+gap_y 0
+ 
+# -- Graphics settings -- #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+ 
+# -- Text settings -- #
+use_xft yes
+xftfont Bleeding Cowboys:size=30
+#xftalpha 0.8
+ 
+uppercase no
+
+#to prevent window from moving
+#use_spacer none
+use_spacer left
+ 
+default_color 000000
+ 
+# -- Lua Load -- #
+lua_load /home/awross/.config/conky/conky_widgets.lua
+lua_draw_hook_pre widgets
+ 
+TEXT
+${voffset 360}${font Bleeding Cowboys:size=18}${goto 200}${color white}/${goto 800}V
+${voffset 400}${font Bleeding Cowboys:size=18}${goto 200}${color white}H${goto 800}D
+${voffset 200}${font Bleeding Cowboys:size=20}${goto 458}${color white}${time %I:%M %p}
+${voffset 5}${font Bleeding Cowboys:size=12}${goto 424}${color white}${time %A, %d %B %Y}

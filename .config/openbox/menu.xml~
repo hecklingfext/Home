@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Terminal emulator">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Web Browser">
+	<action name="Execute"> <execute> chromium-browser </execute> </action>
+  </item>
+  <item label="Web Browser(i)">
+	<action name="Execute"> <execute> chromium-browser --incognito </execute> </action>
+  </item>
+  <item label="File Manager">
+	<action name="Execute"> <execute> pcmanfm </execute> </action>
+  </item>
+  <item label="Text Editor">
+	<action name="Execute"> <execute> gedit </execute> </action>
+  </item>
+  <item label="Volume Control">
+	<action name="Execute"> <execute> gnome-volume-control </execute> </action>
+  </item>
+  <menu id="terminal" label="Terminal Apps">
+	  <item label="Vim - Text Editor">
+		<action name="Execute"> <execute> terminator --command=vim </execute> </action>
+	  </item>
+	  <item label="Midnight Commander - File Manager">
+		<action name="Execute"> <execute> terminator --command=mc </execute> </action>
+	  </item>
+	  <item label="rtorrent - Bit Torrent Client">
+		<action name="Execute"> <execute> terminator --command=rtorrent </execute> </action>
+	  </item>
+	  <item label="MoC - Music Player">
+		<action name="Execute"> <execute> terminator --command=mocp </execute> </action>
+	  </item>
+  </menu>
+  <menu id="tools" label="Tools &amp; Utilities">
+	  <item label="Evince PDF Viewer">
+        	<action name="Execute"> <execute> evince </execute> </action>
+          </item>
+	  <item label="Calculator">
+        	<action name="Execute"> <execute> gnome-calculator </execute> </action>
+          </item>
+  </menu>
+  <separator/>
+	<menu execute="/home/awross/bin/places.py" id="dynamic_places" label="Places"/>
+  <separator/>
+  <menu id="preferences" label="Preferences">
+	<menu id="obConfig" label="Openbox Config">
+		<item label="Jules Terminal">
+		  <action name="Execute"><execute>terminator --command="ssh jules" </execute></action>
+		</item>
+		<item label="Vincent Terminal">
+		  <action name="Execute"><execute>terminator</execute></action>
+		</item>
+		<item label="Edit autostart.sh">
+			<action name="Execute"> <execute> gedit ~/.config/openbox/autostart.sh </execute> </action>
+		</item>
+		<item label="GUI Menu Editor">
+			<action name="Execute"> <execute> obmenu </execute> </action>
+		</item>
+		<item label="GUI Config Tool">
+			<action name="Execute"> <execute> obconf </execute> </action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Restart">
+			<action name="Restart"/>
+		</item>
+	</menu>	
+	<item label="Choose Wallpaper">
+		<action name="Execute"> <execute> nitrogen ~/Pictures/wallpapers/ </execute> </action>
+	</item>
+  </menu>
+  <menu id="system" label="System">
+	<item label="System Update">
+		<action name="Execute"> <execute> system-update </execute> </action>
+	</item>
+	<item label="Disk Partitioner">
+		<action name="Execute"> <execute> gksudo gparted </execute> </action>
+	</item>
+	<menu id="DisplaySettings" label="Display Settings">
+		<item label="Adjust with lxrandr">
+			<action name="Execute"> <execute> lxrandr </execute> </action>
+		</item>
+		<item label="Adjust with grandr">
+			<action name="Execute"> <execute> grandr </execute> </action>
+		</item>
+		<separator label="Help?"/>
+		<item label="man xrandr">
+			<action name="Execute"> <execute> terminator --command=&quot;man xrandr&quot; </execute> </action>
+		</item>
+	</menu>
+	<item label="Edit Default Applications">
+		<action name="Execute"> <execute> terminator --command=&quot;sudo update-alternatives --all&quot; </execute> </action>
+	</item>
+	<item label="Login setup (GDM)">
+		<action name="Execute"> <execute> gksudo gdmsetup </execute> </action>
+	</item>
+	<item label="Network Admin">
+		<action name="Execute"> <execute> network-admin </execute> </action>
+	</item>
+	<item label="Package Manager">
+		<action name="Execute"> <execute> gksudo synaptic </execute> </action>
+	</item>
+	<item label="Passwords and Encryption Keys">
+		<action name="Execute"> <execute> seahorse </execute> </action>
+	</item>
+	<item label="Printer Settings">
+		<action name="Execute"> <execute> system-config-printer </execute> </action>
+	</item>
+	<item label="Restricted Device Manager">
+		<action name="Execute"> <execute> gksudo jockey-gtk </execute> </action>
+	</item>
+	<item label="Services/Daemons">
+		<action name="Execute"> <execute> services-admin </execute> </action>
+	</item>
+	<item label="Shared Folders">
+		<action name="Execute"> <execute> shares-admin </execute> </action>
+	</item>
+	<item label="System Monitor">
+		<action name="Execute"> <execute> terminator --command=htop </execute> </action>
+	</item>
+	<item label="System Logs">
+		<action name="Execute"> <execute> gnome-system-log </execute> </action>
+	</item>
+	<item label="Time/Date">
+		<action name="Execute"> <execute> time-admin </execute> </action>
+	</item>
+	<item label="Users/Groups">
+		<action name="Execute"> <execute> users-admin </execute> </action>
+	</item>
+  </menu>
+  <!-- This requires the presence of the 'menu' package to work -->
+  <menu id="Debian" />
+  <separator />
+  <menu id="client-list-menu" />
+  <separator />
+  <item label="Lock Screen">
+	<action name="Execute"> <execute> gnome-screensaver-command -l </execute> </action>
+  </item>
+  <item label="Exit">
+	<action name="Execute"> <execute> /home/awross/bin/openbox-logout </execute> </action>
+  </item>
+
+</menu>
+
+</openbox_menu>

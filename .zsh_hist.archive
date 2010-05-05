@@ -1,0 +1,264 @@
+install obconf
+cp ./* ~/.config/
+install vim
+sudo nano /etc/apt/sources.list
+install chromium-browser
+install vlc git 
+install vlc git-core
+sudo nvidia-settings
+sudo vim /etc/apt/sources.list
+cd .config/terminator
+cd pytyle-0.7.4
+./configure
+cp /ext/back/home/awross/.config/terminator/config .
+cp pytyle /usr/bin
+cp.real pytyle /usr/bin
+date
+install python2.
+install python2.6
+install python2.6-dev
+install python-xlib
+install rsync
+la
+ls
+ls -alh
+ls -alht
+man terminator
+man terminator_config
+mv pytyle /usr/bin
+python setup.py
+python setup.py --help
+python setup.py install
+python setup.py INSTALL
+pytyle
+sudo mv pytyle /usr/bin
+sudo python setup.py install
+time
+zsh
+cat .config/terminator/config
+man gnome-terminal
+cd apps/gnome-terminal
+cd /ext/back/home/awross
+cd .gconf
+cd profiles
+cp ./* ~/.gconf/apps/gnome-terminal/profiles/
+cat /ext/back/etc/X11/xorg.conf
+sudo vim /etc/X11/xorg.conf
+cd ..
+cd ~/Documents/i
+cd ~/Downloads/installs
+cd ~/.dropbox-dist
+cd dropbox-dist
+cd /ext/back/home/awross/Downloads/installs
+echo $DISPLAY
+gnome-panel
+g++ setlayout.c
+mv .dropbox-dist dropbox-dist
+mv dropbox-dist ~/.dropbox-dist
+python dbmakefakelib.py
+sudo dpkg -i Downloads/installs/nautilus-dropbox_0.6.2_amd64.deb
+tar -zxof dropbox-lnx.x86_64-0.7.110.tar.gz
+wget http://www.dropbox.com/download?plat=lnx.x86_64
+wget -nd http://dl.dropbox.com/u/6995/dbmakefakelib.py
+wget -nd http://dl.dropbox.com/u/6995/dbreadconfig.py
+wget -O dropbox.tar.gz http://www.dropbox.com/download?plat=lnx.x86_64
+cat .ssh/id_rsa.pub
+echo DISPLAY
+install conky
+install conky-all
+ssh-keygen
+vim .config/openbox/autostart.sh
+exit
+disown
+seed
+setlayout 1 3 3 1
+terminator -fb
+terminator -fb &
+conky -c ~/.config/conky/conky-rings.rc
+install libimage-imlib2-perl
+sudo apt-cache search imlib
+vim .config/conky/conky-rings.rc
+install liblua5.1-0-dev
+sudo apt-cache search lua
+sudo apt-cache search lua l
+cat gpl.txt
+cd
+cd /
+cd ../
+cd /bak
+cd .config
+cd .config/conky
+cd ~/.config/openbox/
+cd ~/Documents
+cd Documents/i
+cd ../Downloads/installs
+cd Downloads/installs
+cd obsetlayout
+cd switchscreen
+cd ../switchscreen
+cd switchscreen-0.1.1
+cd .x
+cp .config Downloads .fehrc .fontconfig .fonts .gens Pictures .rtorrent.rc .screenrc .ssh/authorized_keys .synergy.conf todo .vim .vimrc .VirtualBox .zsnes ~/
+cp setlayout /usr/bin
+cp switchscreen /usr/bin
+extract switchscreen-0.1.1.tar.gz
+gcc -Wall -o switchscreen switchscreen.o -L/usr/X11R6/lib -lX11
+g++ setlayout.c -lX11
+g++ switchscreen.c
+g++ switchscreen.c -lX11
+g++ switchscreen.o
+install build-essential
+install libx11-6
+install libx11-dev
+install libxcb-atom1-dev
+install libxcb-xtest0-dev
+install libxext-dev
+install libxtst
+install libxtst-dev
+install synergy
+install xautomation xdotool
+install xcompmgr
+install x-dev
+make
+make install
+mv a.out setlayout
+mv setlayout.c obsetlayout
+nitrogen
+rmdir Documents
+./setlayout 1 3 3 1
+sudo apt-cache search libxtst
+sudo apt-cache search lX11
+sudo apt-cache search lXtst
+sudo apt-cache search -lXtst
+sudo apt-cache search Xatom
+sudo apt-cache search Xlib
+sudo apt-cache search XTest
+sudo cp setlayout /usr/bin
+sudo cp switchscreen /usr/bin
+sudo ln -s ext/back/home/awross /bak
+switch
+vim rc.xml
+vim readme
+right
+DISPLAY=:0.1 terminator -fb
+DISPLAY=:0.1 terminator -fb &
+cd /bak/bin
+cd ~/bin
+cp openbox-logout ~/bin
+cp openbox-logout ~/bin/
+mkdir ~/bin
+rm ~/bin
+cp /bak/.config/terminator/config ~/.config/terminator/config
+vim .config/terminator/config
+killall terminator
+sudo killall terminator
+sudo killall terminatpr
+rm .config/terminator/config
+sudo reboot now
+install rtorrent
+vim .ssh/authorized_keys
+rtorrent
+scr
+cat ~/.gmrun_history
+cd Downloads
+cd installs
+cp /bak/.gmrun_history .
+crontab -e
+extract libflashplayer-10.0.45.2.linux-x86_64.so.tar.gz
+ifconfig
+install feh
+install pcmanfm
+install ssh
+lsmkdir seed
+man feh
+mkdir seed
+sudo add-apt-repository ppa:sevenmachines/flash
+sudo apt-get install flashplugin64-installer
+sudo apt-get install flashplugin-nonfree
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get purge flashplugin-nonfree flashplugin-installer
+sudo apt-get update
+vim .gtkrc-2.0
+cp /bak/bin/places.py ~/bin
+feh -FZxd /media/disk/a/Pics/BG/
+feh -Zxd /media/disk/a/Pics/BG/
+screen
+terminator -v
+terminator --layout=screens
+beep
+man lame
+man mid3v2
+echo $track
+id3-clean-tags 00.Break\ My\ Soul.mp3
+mid3v2 --track=01 00.Break\ My\ Soul.mp3
+mid3v2 --track=01/12 00.Break\ My\ Soul.mp3
+cd /data
+cd /data/downloads/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+cd Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+cd /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+chmod 777 out.mp3
+chmod -R 777 Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+cp 12\ -\ Numb.flac /data/
+flac -dc 12\ -\ Numb.flac
+flac -dc 12\ -\ Numb.flac | lame -mj -q0 -s44.1 -V0 out.mp3
+flac -dc 12\ -\ Numb.flac | lame -mj -q0 -s44.1 -V0 /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]/12\ -\ Numb.mp3
+flac -dc /data/downloads/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]/12\ -\ Numb.flac | lame -mj -q0 -s44.1 -V0 /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]/12\ -\ Numb.mp3
+flac -dc /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]/12\ -\ Numb.flac | lame -mj -q0 -s44.1 -V0 /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]/12\ -\ Numb.mp3
+flac-to-v0
+ls- alh
+ls /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+man sed
+mv 12\ -\ Numb.flac /work/Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\]
+mv -v ./*.mp3 /data/music/Hybrid/2010\ -\ Disappear\ Here/
+sudo chown awross:awross out.mp3
+sudo flac -dc 12\ -\ Numb.flac | lame -mj -q0 -s44.1 -V0 out.mp3
+sudo touch out.mp3
+cd Gorillaz
+cd Hybrid
+cd /media/\!:Òƒ¥=CZ\?$'\020'SQ
+cd Music
+cp /data/music/Hybrid/2010\ -\ Disappear\ Here .
+ls 2010\ -\ Disappear\ Here
+mkdir Hybrid
+cat ~/.zshrc g flac
+cd /data/music/Hybrid/2010\ -\ Disappear\ Here
+chmod 666 ./*
+chmod 666 ../
+chmod 777 ../
+chmod -R 777 Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\] 
+cp Hybrid\ -\ Disappear\ Here\ \(2010\)\ \[FLAC\] /work/
+fg
+flac -c -d 01\ -\ Empire.flac | lame -mj -q0 -s44.1
+flac -c -d 01\ -\ Empire.flac | lame -mj -q0 -s44.1 $QUALITY - test.mp3
+flac -c -d 01\ -\ Empire.flac | lame -mj -q0 -s44.1 -V2
+flac -dc 01\ -\ Empire.flac | lame - out.mp3
+flac-to-mp3 ./*
+id3-clean-dir
+id3-read-tag ./*
+id3-read-tag *
+install flac
+install id3 id3v2 python-mutagen
+install lame
+less ~/.zshrc
+ls -alhg
+man flac
+mid3v2 --track=01 00.Empire.mp3
+mid3v2 --track=02 00.Can\ You\ Hear\ Me.mp3
+mid3v2 --track=03 00.Green\ Shell\ Suit.mp3
+mid3v2 --track=04 00.Disappear\ Here.mp3
+mid3v2 --track=05 00.Every\ Word.mp3
+mid3v2 --track=06 00.Formula\ of\ Fear.mp3
+mid3v2 --track=07 00.City\ Siren\ \(Reprise\).mp3
+mid3v2 --track=08 00.Salt.mp3
+mid3v2 --track=09 00.Original\ Sin.mp3
+mid3v2 --track=10 00.Take\ A\ Fall.mp3
+mid3v2 --track=11 00.Break\ My\ Soul.mp3
+mid3v2 --track=12 ./01.Numb.mp3
+mkdir /data/music/Hybrid/2010\ -\ Disappear\ Here
+mv ./*.mp3 /data/music/Hybrid/2010\ -\ Disappear\ Here
+rm ./*
+rm out.mp3
+vim ~/.zshrc
+sudo update-alternatives --config x-www-browser
+extract monodevelop-2.2.2.tar.bz2
+vim ~/Dropbox/Misc/5050.txt

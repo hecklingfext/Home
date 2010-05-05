@@ -1,0 +1,84 @@
+[global_config]
+  hide_tabbar = True
+  tab_position = bottom
+  handle_size = 0
+  borderless = True
+  silent_bell = False
+  force_no_bell - False
+  audible_bell = True
+  visible_bell = False
+[keybindings]
+  paste = <Ctrl>v
+  go_up = <Ctrl>Up
+  group_tab = <Ctrl><Super>t
+  new_tab = <Ctrl>t
+  go_next = <Ctrl>Tab
+  go_prev = <Ctrl><Shift>Tab
+  go_down = <Ctrl>Down
+  new_window = <Ctrl>n
+  go_right = <Ctrl>Right
+  go_left = <Ctrl>Left
+  ungroup_tab = <Ctrl><Super><Shift>T
+  copy = <Ctrl>c
+  group_all = <Ctrl><Super>g
+  ungroup_all = <Ctrl><Super><Shift>G
+[profiles]
+  [[default]]
+    use_system_font = False
+    alternate_screen_scroll = False
+    background_darkness = 0.57
+    audible_bell = True
+    background_type = transparent
+    scrollbar_position = hidden
+    foreground_color = "#00ff00"
+    scroll_on_output = False
+    icon_bell = False
+    show_titlebar = False
+    font = Monospace 8
+    scrollback_infinite = True
+  [[screens]]
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#00ff00"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Monospace 8
+    scrollback_infinite = True
+	silent_bell = False
+	force_no_bell - False
+	audible_bell = True
+	visible_bell = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[screens]]
+    [[[child0]]]
+      position = 1920:0
+      type = Window
+      order = 0
+      parent = ""
+      size = 1024, 1280
+    [[[child1]]]
+      profile = None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[terminal3]]]
+      profile = screens
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal2]]]
+      profile = screens
+      type = Terminal
+      order = 0
+      parent = child1
+[plugins]
