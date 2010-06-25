@@ -1,0 +1,27 @@
+directory = /data/downloads
+session = /data/downloads/work
+
+schedule = watch_directory, 5, 60, load_start=/data/downloads/watch/*.torrent
+schedule = untied_directory, 5, 60, stop_untied=
+
+schedule = low_diskspace, 5, 120, close_low_diskspace=100M
+
+tracker_numwant = -1
+use_udp_trackers = yes
+max_file_size = -1
+split_file_size = -1
+port_range = 50000-60000
+# Increasing these values does not normally increase speed but can negatively impact the server -- please be careful
+min_peers = 2
+max_peers = 20
+min_peers_seed = 2
+max_peers_seed = 40
+
+# Hash checking is not meant to be done as fast as possible as this consumes a large portion of the CPU and disk IO -- you're on a shared server
+check_hash = yes
+hash_interval = 100
+hash_max_tries = 2
+
+# Do not change: must modify Apache to be effective
+scgi_port = localhost:51001
+

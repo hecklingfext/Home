@@ -1,0 +1,9 @@
+browser	 elinks
+download-path /data/podcasts
+player	 mplayer
+save-path /work/DocFeed
+auto-reload yes
+notify-beep yes
+podcast-auto-enqueue yes
+reload-time 15
+reload-threads 4
