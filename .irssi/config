@@ -78,7 +78,7 @@ chatnets = {
     username = "hecklingfext";
     realname = "hecklingfext";
     host = "localhost";
-    autosendcmd = "/msg &bitlbee identify marvin17";
+    autosendcmd = "/msg &bitlbee identify hecklingfext";
   };
   freenode = {
     type = "IRC";
@@ -300,7 +300,7 @@ settings = {
     beep_when_away = "no";
     beep_msg_level = "MSGS NOTICES DCC DCCMSGS HILIGHT";
     autolog = "yes";
-    autolog_path = "~/work/im/irssi/$0.log";
+    autolog_path = "/work/im/irssi/$0.log";
     autolog_level = "= all";
     term_charset = "UTF-8";
   };

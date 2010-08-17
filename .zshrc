@@ -248,13 +248,14 @@ done
 ###########################################
 # Standard aliases
 ###########################################
+alias hnb="hnb ~/Dropbox/ToDo/awross.hnb"
 alias install="sudo apt-get install"
 alias remove="sudo apt-get remove"
-alias ls="ls -ABhp --color=always"
-alias ls.real="/bin/ls"
+#alias ls="ls -ABhp --color=always"
+#alias ls.real="/bin/ls"
 alias files="ls -ABlhp --color=always"
 alias f="files | less -r"
-alias lsa="ls -a"
+#alias lsa="ls -a"
 alias -g l="| less"
 alias -g g="| grep"
 alias -g p="| sed 's/\\\\/\\\\\\\\/g' | sed \"s/\\s/\\\\ /g\" | sed \"s/'/\\\\\\\\'/g\" | sed 's/\"/\\\\\\\"/g' | xargs -I\"{}\" "
@@ -279,6 +280,8 @@ alias cp.real="cp"
 alias cp="rsync -zvruP"
 alias seedfs="sshfs hecklingfext@egyptian-blue.feralhosting.com:/home/hecklingfext /seed"
 alias pairfs="sshfs vincent:/home/awross /vincent"
+alias speedy_sync="rsync.exact --exclude="sql.php" speedy_test/* speedy/"
+alias ubgrade="sudo apt-get update && sudo apt-get upgrade"
 
 
 mid(){
@@ -546,7 +549,7 @@ id3-clean-tags(){
 	echo "Artist: $artist => $newartist"
 	mid3v2 -a "$newartist" -A "$newalbum" -t "$newtitle" "$filename"
 }
-id3-clean-dir(){
+id3-clean-dir(){:
 	if [[ "$1" == "" ]]; then
 		dir=`pwd`
 	else
@@ -559,6 +562,28 @@ id3-clean-dir(){
 		echo "==============="
 	done
 	echo "Done!"
+}
+mayClean()
+{
+	find . -type d | while read DIR; do
+		cd $DIR
+		echo "Found $DIR"
+		find . -maxdepth 1 -iname "*.flac" -ls | read RESULT
+		if [[ "$RESULT" != "" ]]; then flac-to-v0; mkdir flac; mv ./*.flac flac/; id3-clean-dir; fi;
+		echo "-----------------------------------------"
+		cd -
+	done
+	echo Done!
+}
+# Yakikate
+yaki-clean()
+{
+	find . -type f -iname "*.avi" | while read FILE; do
+		echo $FILE | awk -F "apan_" '{print $2}' | awk -F "_" '{print $1}' | read NUM
+		echo "Found $FILE"
+		mv $FILE Yakikate.$NUM.avi
+	done
+	echo Done!
 }
 
 ###########################################

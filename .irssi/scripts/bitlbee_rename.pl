@@ -22,7 +22,7 @@ sub message_join
   my $username = substr($address, 0, index($address,'@'));
   my $host = substr($address, index($address,'@')+1);
 
-  if($channel == $bitlbeeChannel && $nick =~ m/^-\d+/ && $host == "chat.facebook.com")
+  if($channel == $bitlbeeChannel && $host == "chat.facebook.com")
   {
     $nicksToRename{$nick} = $channel;
     $server->command("whois \"$nick\"");

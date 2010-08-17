@@ -65,7 +65,7 @@ endif
 imap <c-n> <esc>
 vmap <c-n> <esc>
 
-let mapleader = ","
+let mapleader = " "
 map <leader>tn :tabnew<cr>
 map <leader>u :VCSUpdate<cr>
 map <leader>w :w<cr>
@@ -110,6 +110,10 @@ map ;p :!perl "%"
 map ;pdf :!pdf "%" && evince "`dirname '%'`/`basename '%' .tex`.pdf"<cr>
 " Mapping for yankring
 nnoremap <silent> <F10> :YRShow<CR> 
+
+:command! -nargs=1 R :normal mzi<RETURN><ESC>k:r!<args><RETURN>$J'z$J
+filetype plugin indent on
+set runtimepath+=/usr/share/vim/addons
 
 nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
