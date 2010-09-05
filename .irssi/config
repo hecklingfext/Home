@@ -78,7 +78,7 @@ chatnets = {
     username = "hecklingfext";
     realname = "hecklingfext";
     host = "localhost";
-    autosendcmd = "/msg &bitlbee identify hecklingfext";
+    autosendcmd = "/msg &bitlbee identify 417Cleopatra";
   };
   freenode = {
     type = "IRC";

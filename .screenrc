@@ -28,6 +28,6 @@ screen -t im 1 sh -c "irssi -c im"
 screen -t uot 2 sh -c "sleep 5s; irssi -c freenode"
 screen -t fh 3 sh -c "sleep 10s; irssi -c WhatNetwork"
 screen -t torr 4 sh -c "rtorrent"
-screen -t otl 5 sh -c "vim ~/Dropbox/ToDo/awross.otl"
+screen -t otl 5 sh -c "view ~/Dropbox/ToDo/awross.otl"
 screen -t web 6 sh -c "elinks"
 screen -t zsh 7
