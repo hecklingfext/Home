@@ -1,0 +1,70 @@
+#!/bin/bash
+#
+# t2a
+function usage
+{
+ echo "convert a text file to audio with festival and alsa"
+ echo "optionally encode to .mp3 with lame or .ogg with oggenc"
+ echo
+ echo 'Note: must have ~/.asoundrc configured as show '
+ echo 'in the example found in "man arecord"'
+ echo
+ echo 'usage: t2a [OPTIONS] <textfile>'
+ echo
+ echo 'Options:'
+ echo '  -h | --help               this help message'
+ echo '  -g | --ogg                encode to OGG Vorbis'
+ echo '  -m | --mp3                encode to MP3'
+ echo '  -o | --output <outfile>   change the output filename'
+ echo '                            defaults to `basename <textfile>`.[wav,ogg,mp3]'
+ echo
+ echo 'Created by Matt McCormick'
+ echo '2007 December 8'
+}
+while [ "$1" != "" ] ; do
+ case "$1" in
+   -h | --help )
+     usage
+     exit 0
+     ;;
+   -g | --ogg )
+     OGG_ENC=true
+     shift
+     ;;
+   -m | --mp3 )
+     MP3_ENC=true
+     shift
+     ;;
+   -o | --output )
+     shift
+     OUTFILE="$1"
+     shift
+     ;;
+   * )
+     INFILE="$1"
+     if [ ! -f "$INFILE" ] ; then
+       echo "$INFILE does not exist!"
+       exit 1
+     fi
+     shift
+     ;;
+   esac
+done
+[ -z "${OUTFILE:-}" ] && OUTFILE=${INFILE/%txt/wav}
+[ "${OUTFILE%wav}" == "$OUTFILE" ] && OUTFILE="${OUTFILE}.wav"
+arecord -q -t wav -c 1 -f s16 -r 44100 -D copy "$OUTFILE" &
+REC_PID=$!
+trap "kill $REC_PID" ERR
+festival --tts "$INFILE" &> /dev/null
+kill $REC_PID
+if [ "$OGG_ENC" == "true" ] || [ "$MP3_ENC" == "true" ] ; then
+ if [ "$OGG_ENC" == "true" ] ; then
+   OUTFILE_OGG=${OUTFILE/%wav/ogg}
+   oggenc -Q -b 64 "$OUTFILE" -o "$OUTFILE_OGG"
+ fi
+ if [ "$MP3_ENC" == "true" ] ; then
+   OUTFILE_MP3=${OUTFILE/%wav/mp3}
+   lame -h -b 64 "$OUTFILE" "$OUTFILE_MP3" &> /dev/null
+ fi
+ rm "$OUTFILE"
+fi
