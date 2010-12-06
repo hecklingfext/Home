@@ -1,0 +1,79 @@
+TODO
+====
+
+High Priority
+-------------
+
+Medium Priority
+---------------
+
+- Fluxlet: Drives/filesystems
+- Fluxlet: CPU meter
+- Fluxlet: Memory meter
+- Fluxlet: Network meter
+- Fluxlet: Top process meter/killer
+- Fluxfeed: Weather
+- Fluxfeed: Mail: POP3
+- Fluxfeed: Mail: mbox
+- Fluxfeed: Mail: Maildir
+- IMAP: Mailbox options for calculating mail count differently.
+    - E.g.  Inbox shows the new count, but a mailing list shows a
+      total.
+- Painter: Replace Imlib2 with FbTk (or GDK) for wallpaper display.
+    - Get rid of dependency!
+    - Current Esetroot code is unreliable!
+- Robustness: Inject version number in Python module during build.
+- Robustness: Better Fluxspace process management.
+    - Make a true daemon.
+    - Double-fork the process.
+    - Redirect stdout/stderr.
+- Robustness: Cleaner exits
+    - Shutdown without killing.
+    - Don't shutdown existing processes unless they are for the same
+      user/display.
+- Robustness: Logging
+    - Catch and log all messages and errors.
+    - Handle PyErr_Print.
+    - Redirect stdout/stderr to the log file.
+
+Low Priority
+------------
+
+- Fluxlet: Main application menu
+- Fluxlet: Workspace-targeted application menus
+- Fluxlet: Analog clock
+    - Requires drawing primitives.
+- Fluxlet: Pager
+    - Requires drawing primitives.
+- Fluxlet: Mixer
+    - Requires drawing primitives.
+    - Requires sliders.
+- Fluxlet: Graphical meters for CPU, Memory, Network, etc.
+- Blank: Allow rendered/textured separators.
+- Display: Dynamic rows.
+    - E.g. Let filesystem fluxlet add and remove rows dynamically as
+      filesystems come and go.
+- Display: Drawing primitives.
+    - Lines: various thicknesses, pens, etc.?
+    - Rectangles: filled, unfilled, textured, etc.?
+    - Circles/ellipses: filled, unfilled, textured, etc.?
+	- Pixmap methods, e.g. load pixmap for handler (returns cookie),
+	  display pixmap by cookie in row rectangle.
+    - LEDs, e.g. for network transmit/receive.
+	- Save drawing actions for automatic exposure handling.
+	- Show wallpaper as backdrop for each mini-workspace.
+- Display: Tooltips
+    - Show customizable details for row(s).
+- Input: More controls.
+    - Sliders
+- Robustness: Reduce memory consumption.
+    - Switch to threads?
+- Fluxlet: Reminders
+	- Scan evolution and other PIMs for impending appointments.
+	- Flash LED once a second when due.  Consider using a topmost
+	  shaped window to get a show-through effect.
+	- Display tooltip with more info.
+
+Investigate
+-----------
+- Installation: Convert to distutils?

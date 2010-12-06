@@ -1,0 +1,106 @@
+
+Window Manager Support
+----------------------
+
+All the window managers seem to have different terminology for what
+they call virtual desktops/viewports/workspaces. The following is an
+attempt to describe the various configurations and 3ddesktop's
+support.
+
+Quick setup
+-----------
+
+If you have Gnome 1.x/2.x, KDE 3.x or Windowmaker you shouldn't need
+to do anything.  If you have KDE 2.x, Fluxbox or Enlightenment use the
+--wm arg indicated below for your setup (or "wm" option in .conf).
+
+Details
+-------
+
+The wm option helps 3ddesktop do the right thing.  Without the option
+it trys to guess the best mode.  There are other alternate options
+which can directly specify the particular virtual desktop scheme you
+are using (EWMH, Workspaces, Gnome, Kde etc) but using --wm is
+recommended.
+
+Redhat 8.0 uses GNOME 2.x and/or KDE 3.x.
+Redhat 7.x uses GNOME 1.x and/or KDE 2.x.
+
+GNOME 1.x:  --wm=gnome1
+
+   In general you can have a grid of "areas" or "viewports" made up of
+   some number of rows by some number of columns.  Then you can have
+   "workspaces" which are some number of layers of these grids.  So if
+   you have a 2x2 grid of areas and 2 workspaces you have 8 virtual
+   desktops (4 areas per workspace times 2 workspaces).
+
+   Right now 3ddesktop will display each row one after the other
+   linearly for most "modes" except for "linear" which ironically is
+   not really linear any more (more like planar or 2d).
+
+   3ddesktop can be told to use the layered workspaces instead of the
+   grid of areas with the command line option --workspaces instead of
+   --wm=gnome1.  You can use 3ddesktop to switch between areas or you
+   can use it to switch between workspaces but not both (not yet!).
+   Things get weird if you use both.
+
+   If you have the sawfish windowmanager this is what you want
+   (probably).
+
+GNOME 2.x:  --wm=gnome2
+
+   GNOME 2 uses the EWMH standard (just like KDE 3).  Using EWMH is
+   the default so --wm=gnome2 isn't strictly necessary.  This is what
+   you want if you have the Metacity windowmanager.
+
+KDE 2.x:  --wm=kde2
+
+   KDE 2.x is supported.  Window managers that are "compatible" with
+   KDE should work with this option as well!
+
+KDE 3.x:  --wm=kde3
+
+   KDE 3.x uses the same standard as GNOME 2 called EWMH so using
+   --ewmh will work as well.
+
+Enlightenment: --wm=enlightenment
+
+   In Enlightenment, the workspaces are configured in the "Multiple
+   Desktop Settings" dialog as layered virtual desktops.  You
+   configure the areas as a grid in the "Virtual Desktop Settings"
+   dialog.
+
+   The virtual desktop scheme is identical to Gnome 1.x to my
+   knowledge.  Use --workspaces instead of --wm=enlightenment if you'd
+   like to use workspaces.
+
+   It is recommended you turn off the "Slide desktops around when
+   changing" option in Special FX Settings.  This has an unnatural
+   effect when using 3ddesktop (thanks Nick!).
+
+WindowMaker:  --wm=windowmaker
+
+   WindowMaker only supports workspaces and calls them by the same
+   name.  To my knowledge you can't do any kind of "area" or grid
+   setup.  
+
+     ** Make sure WindowMaker is compiled with the --enable-gnome
+        switch if you are compiling it.
+
+Sawfish:  --wm=sawfish
+
+   In Sawfish you go to the configuration section called "Workspaces"
+   and the grid size of the areas is specified with the columns and
+   rows values.
+
+Fluxbox:  
+
+   Works fine with fluxbox 0.9.9 I am told. 
+
+   Last I checked myself was with fluxbox 0.1.14.  It did not update 
+   the X atoms that contain the virtual desktop count info.  For that
+   release I made the patch below which is probably not necessary for
+   the latest fluxbox.
+
+     http://desk3d.sourceforge.net/dl/fluxbox-0.1.14-workspace.patch
+

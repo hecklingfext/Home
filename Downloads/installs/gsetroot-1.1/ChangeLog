@@ -1,0 +1,5 @@
+gsetroot 1.1
+  * fix a bug when we try to load a picture that has a ' ' space in the name
+
+gsetroot 1.0
+  * Initial release

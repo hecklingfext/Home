@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/936/trunk/glN64_GX
+END
+DepthBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/936/trunk/glN64_GX/DepthBuffer.cpp
+END
+gSP.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/gSP.h
+END
+F3DWRUS.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/F3DWRUS.h
+END
+F3DPD.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/F3DPD.h
+END
+glATI.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/246/trunk/glN64_GX/glATI.h
+END
+F3DEX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/F3DEX.cpp
+END
+TEV_combiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/936/trunk/glN64_GX/TEV_combiner.cpp
+END
+S2DEX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/S2DEX2.h
+END
+F3D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/F3D.cpp
+END
+texture_env.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/936/trunk/glN64_GX/texture_env.h
+END
+L3DEX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/L3DEX.cpp
+END
+F3DDKR.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/F3DDKR.h
+END
+L3D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/L3D.cpp
+END
+Textures.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/936/trunk/glN64_GX/Textures.cpp
+END
+3DMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/3DMath.h
+END
+NV_register_combiners.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/936/trunk/glN64_GX/NV_register_combiners.cpp
+END
+gSP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/gSP.cpp
+END
+S2DEX.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/S2DEX.h
+END
+Zilmar GFX 1.3.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/246/trunk/glN64_GX/Zilmar%20GFX%201.3.h
+END
+F3DWRUS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/936/trunk/glN64_GX/F3DWRUS.cpp
+END
+Combiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/936/trunk/glN64_GX/Combiner.cpp
+END
+DepthBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/936/trunk/glN64_GX/DepthBuffer.h
+END
+texture_env_combine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/936/trunk/glN64_GX/texture_env_combine.cpp
+END
+GBI.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/GBI.h
+END
+L3DEX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/L3DEX2.h
+END
+S2DEX2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/S2DEX2.cpp
+END
+GFXPlugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/936/trunk/glN64_GX/GFXPlugin.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/Types.h
+END
+gDP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/gDP.cpp
+END
+CRC.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/CRC.h
+END
+F3DDKR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/F3DDKR.cpp
+END
+F3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/F3D.h
+END
+TEV_combiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/936/trunk/glN64_GX/TEV_combiner.h
+END
+FrameBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/936/trunk/glN64_GX/FrameBuffer.cpp
+END
+OpenGL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/OpenGL.cpp
+END
+S2DEX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/S2DEX.cpp
+END
+L3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/L3D.h
+END
+glext.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/246/trunk/glN64_GX/glext.h
+END
+RDP.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/RDP.h
+END
+glN64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/glN64.cpp
+END
+NV_register_combiners.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/936/trunk/glN64_GX/NV_register_combiners.h
+END
+GBI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/GBI.cpp
+END
+L3DEX2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/L3DEX2.cpp
+END
+Combiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/Combiner.h
+END
+RSP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/RSP.cpp
+END
+gl.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/246/trunk/glN64_GX/gl.h
+END
+CRC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/CRC.cpp
+END
+texture_env_combine.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/936/trunk/glN64_GX/texture_env_combine.h
+END
+N64.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/N64.h
+END
+VI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/936/trunk/glN64_GX/VI.cpp
+END
+gDP.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/gDP.h
+END
+RDP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/RDP.cpp
+END
+2xSAI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/2xSAI.cpp
+END
+OpenGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/OpenGL.h
+END
+FrameBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/936/trunk/glN64_GX/FrameBuffer.h
+END
+glN64.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/glN64.h
+END
+F3DPD.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/F3DPD.cpp
+END
+F3DEX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/F3DEX2.h
+END
+N64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/N64.cpp
+END
+texture_env.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/936/trunk/glN64_GX/texture_env.cpp
+END
+RSP.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/936/trunk/glN64_GX/RSP.h
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/936/trunk/glN64_GX/Config.h
+END
+F3DEX.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/F3DEX.h
+END
+VI.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/936/trunk/glN64_GX/VI.h
+END
+L3DEX.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/L3DEX.h
+END
+Config_linux.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/936/trunk/glN64_GX/Config_linux.cpp
+END
+convert.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/936/trunk/glN64_GX/convert.h
+END
+Textures.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/Textures.h
+END
+2xSAI.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/2xSAI.h
+END
+F3DEX2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/936/trunk/glN64_GX/F3DEX2.cpp
+END
+Debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/936/trunk/glN64_GX/Debug.h
+END

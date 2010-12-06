@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/260/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors
+END
+ModelBoneContentCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelBoneContentCollection.cs
+END
+ModelMeshPartContentCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelMeshPartContentCollection.cs
+END
+ModelTextureProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelTextureProcessor.cs
+END
+ModelMeshContentCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelMeshContentCollection.cs
+END
+SpriteTextureProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SpriteTextureProcessor.cs
+END
+FontTextureProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/FontTextureProcessor.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/Enums.cs
+END
+SpriteFontContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SpriteFontContent.cs
+END
+ModelContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelContent.cs
+END
+EffectProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/EffectProcessor.cs
+END
+MaterialProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/MaterialProcessor.cs
+END
+ModelMeshPartContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelMeshPartContent.cs
+END
+ModelBoneContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelBoneContent.cs
+END
+TextureProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/TextureProcessor.cs
+END
+ModelProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelProcessor.cs
+END
+SoundEffectContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SoundEffectContent.cs
+END
+SongContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SongContent.cs
+END
+VertexBufferContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/VertexBufferContent.cs
+END
+SoundEffectProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SoundEffectProcessor.cs
+END
+SongProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/SongProcessor.cs
+END
+PassThroughProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/260/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/PassThroughProcessor.cs
+END
+ModelMeshContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/ModelMeshContent.cs
+END
+FontDescriptionProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Processors/FontDescriptionProcessor.cs
+END

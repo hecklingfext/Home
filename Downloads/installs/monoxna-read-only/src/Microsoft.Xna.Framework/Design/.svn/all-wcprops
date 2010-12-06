@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/173/trunk/src/Microsoft.Xna.Framework/Design
+END
+Vector2Converter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/Vector2Converter.cs
+END
+MatrixConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/MatrixConverter.cs
+END
+RectangleConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/RectangleConverter.cs
+END
+Vector3Converter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/Vector3Converter.cs
+END
+QuaternionConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/173/trunk/src/Microsoft.Xna.Framework/Design/QuaternionConverter.cs
+END
+Vector4Converter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/Vector4Converter.cs
+END
+PointConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/PointConverter.cs
+END
+FieldDescriptor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/173/trunk/src/Microsoft.Xna.Framework/Design/FieldDescriptor.cs
+END
+RayConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/RayConverter.cs
+END
+MathTypeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/173/trunk/src/Microsoft.Xna.Framework/Design/MathTypeConverter.cs
+END
+BoundingSphereConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/BoundingSphereConverter.cs
+END
+ColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/150/trunk/src/Microsoft.Xna.Framework/Design/ColorConverter.cs
+END
+BoundingBoxConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/BoundingBoxConverter.cs
+END
+PlaneConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Design/PlaneConverter.cs
+END

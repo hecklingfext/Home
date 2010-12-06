@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules
+END
+kfbxplugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxplugin.h
+END
+kfbxloadingstrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxloadingstrategy.h
+END
+kfbxscopedloadingdirectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxscopedloadingdirectory.h
+END
+kfbxplugincontainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxplugincontainer.h
+END
+kfbxqueryevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxqueryevent.h
+END
+includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/includes.h
+END
+kfbxscopedloadingfilename.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmodules/kfbxscopedloadingfilename.h
+END

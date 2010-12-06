@@ -1,0 +1,24 @@
+= Facebook Eklentisi =
+
+Paketteki .so dosyası, Facebook’un geliştirilmiş fotoğraf yükleme gibi yeni ve heyecan verici özelliklerini kullanmanızı sağlayan bir kitaplıktır.
+
+== Lisans ==
+
+Bu yazılımın hükümlerine tabi olduğu lisansı ve bu kitaplıktan yararlanılarak geliştirilen çeşitli açık kaynak projelere ilişkin önemli bilgileri gözden geçirmek için lütfen paketteki LICENSE dosyasına bakın.
+
+== Gereksinimler ==
+
+Şimdilik, resmi olarak sadece Ubuntu >= 8.04 üzerinde Firefox 3.0 veya üstünü destekliyoruz. (Ancak büyük olasılıkla diğer birçok tarayıcıda, sürümde ve yapılandırmada da sorunsuz çalışacaktır.)
+
+== Yükleme ==
+
+Eklentiyi yüklemek için paketteki .so dosyasını “home” dizininizdeki .mozilla/plugins klasörüne kopyalayın. Örneğin, kullanıcı adınız "jzoidberg" olsaydı, eklentiyi "/home/jzoidberg/.mozilla/plugins" dizinine kopyalamanız gerekirdi. Bu oldukça teknik işlemi yapmak yerine, pakete eklemiş olduğumuz "install.sh" adlı kodu çalıştırarak da aynı sonucu kolayca elde edebilirsiniz.
+
+Örneğin:
+  $ ./install.sh
+
+== Teknik Bilgiler ==
+
+Linux için Facebook Eklentisi şu an için x86 için 32 bitlik kitaplık halinde dağıtılmaktadır. Gelecekte 64 bitlik bir kitaplık ve hatta ARM veya PPC gibi diğer mimariler için kitaplıklar çıkarabiliriz.
+Farklı bir platforma yönelik bir sürümle ilgileniyorsanız, lütfen fbplugin@facebook.com adresinden bizimle iletişim kurun.
+

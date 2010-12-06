@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/258/trunk/src/Microsoft.Xna.Framework/Storage
+END
+StorageDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/258/trunk/src/Microsoft.Xna.Framework/Storage/StorageDevice.cs
+END
+StorageContainer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Storage/StorageContainer.cs
+END
+StorageDeviceNotConnectedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Storage/StorageDeviceNotConnectedException.cs
+END

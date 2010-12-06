@@ -1,0 +1,141 @@
+#!/usr/bin/env python
+######################################################################
+######################################################################
+# Fluxspace IMAP mailbox summary feeder
+######################################################################
+######################################################################
+
+import socket
+import imaplib
+import fluxfeed
+
+######################################################################
+class Mailbox:
+######################################################################
+    def __init__(self, folder, name, command):
+        self.folder  = folder
+        self.name    = name
+        if not self.name:
+            self.name = self.folder
+        self.seen    = 0
+        self.unseen  = 0
+        self.new     = 0
+        self.deleted = 0
+        self.error   = False
+
+######################################################################
+class Updater(fluxfeed.Updater):
+######################################################################
+
+    def __init__(self, display, config):
+        
+        # Get the configuration
+        self.host        = config.getAttribute('host')
+        self.login       = config.getAttribute('login')
+        self.password    = config.getAttribute('password')
+        self.newcolor    = config.getAttribute('newcolor')
+        self.seencolor   = config.getAttribute('seencolor')
+        self.unseencolor = config.getAttribute('unseencolor')
+
+        # Get the per-mailbox configuration and build the display row list
+        rows = []
+        self.mailboxes = []
+        for mailboxNode in config.getElementsByTagName('mailbox'):
+            folder = mailboxNode.getAttribute('folder')
+            name   = mailboxNode.getAttribute('name')
+            size   = mailboxNode.getAttribute('size')
+            color  = mailboxNode.getAttribute('color')
+            mbcmd  = mailboxNode.getAttribute('command')
+            # Default to normal font
+            if not size:
+                size = 'normal'
+            if mbcmd and self.oneButton:
+                oneButton = False
+            mailbox = Mailbox(folder, name, mbcmd)
+            self.mailboxes.append(mailbox)
+            rowdef = (1, size, color, mailbox.name, mbcmd)
+            rows.append(rowdef)
+
+        # The base class sets up the command button(s) and the sleep interval
+        fluxfeed.Updater.__init__(self, config, display, rows, 'Mail')
+
+    def Update(self, display):
+
+        # Update the mailbox quantities
+        ScanMail(self.host, self.login, self.password, self.mailboxes)
+
+        # Render the mailboxes
+        row = self.firstRow
+        for mailbox in self.mailboxes:
+            display.ClearRow(row)
+            display.DrawTextLeft(row, mailbox.name)
+            if mailbox.error:
+                display.DrawTextLeft(row, mailbox.name)
+                display.DrawTextRight(row, '**')
+            elif mailbox.new > 0:
+                if self.newcolor:
+                    display.DrawTextRight(row, '%d' % mailbox.new, 0, self.newcolor)
+                else:
+                    display.DrawTextRight(row, '%d*' % mailbox.new, 0)
+            elif mailbox.unseen > 0:
+                if self.unseencolor:
+                    display.DrawTextRight(row, '%d' % mailbox.unseen, 0, self.unseencolor)
+                else:
+                    display.DrawTextRight(row, '%d+' % mailbox.unseen, 0)
+            else:
+                if mailbox.seen - mailbox.deleted > 0:
+                    scount = '%d' % (mailbox.seen - mailbox.deleted)
+                else:
+                    scount = '--'
+                if self.seencolor:
+                    display.DrawTextRight(row, scount, 0, self.seencolor)
+                else:
+                    display.DrawTextRight(row, scount, 0)
+            row += 1
+
+######################################################################
+def SetError(mailboxes, error):
+######################################################################
+    for mailbox in mailboxes:
+        mailbox.error = error
+
+######################################################################
+def ScanMail(host, login, password, mailboxes):
+######################################################################
+    try:
+        state = 'Connect to IMAP host "%s"' % host
+        imap = imaplib.IMAP4(host)
+        state = 'Login to IMAP server "%s" with login="%s", password="%s"' % (host, login, password)
+        imap.login(login, password)
+        for mailbox in mailboxes:
+            state = 'scan mailbox "%s"' % mailbox.name
+            if mailbox.folder:
+                imap.select(mailbox.folder, True)
+                mailbox.seen    = len(imap.search(None, 'SEEN'   )[1][0].split())
+                mailbox.unseen  = len(imap.search(None, 'UNSEEN' )[1][0].split())
+                mailbox.new     = len(imap.search(None, 'NEW'    )[1][0].split())
+                mailbox.deleted = len(imap.search(None, 'DELETED')[1][0].split())
+        state = 'log out of IMAP server'
+        imap.logout()
+        SetError(mailboxes, False)
+    except socket.error, e:
+        print 'MAILIMAP: Socket error: %s\n   Action: %s' % (e, state)
+        SetError(mailboxes, True)
+    except imaplib.IMAP4.error, e:
+        print 'MAILIMAP: IMAPLIB error: %s\n   Action: %s' % (e, state)
+        SetError(mailboxes, True)
+
+######################################################################
+if __name__ == '__main__':
+######################################################################
+
+    # Set up the feed object
+    feed = fluxfeed.Feed('mailimap')
+
+    # Set up one updater per distinct configuration
+    updates = []
+    for config in feed.moduleConfigs:
+        updates.append(Updater(feed.display, config))
+
+    # Start the engine
+    feed.UpdateForever(updates)

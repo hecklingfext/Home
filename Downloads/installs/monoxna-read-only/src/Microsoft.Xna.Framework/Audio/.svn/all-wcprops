@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio
+END
+AudioEmitter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/AudioEmitter.cs
+END
+NoAudioHardwareException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Audio/NoAudioHardwareException.cs
+END
+Cue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/Cue.cs
+END
+WaveBank.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/WaveBank.cs
+END
+AudioCategory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/AudioCategory.cs
+END
+SoundBank.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/SoundBank.cs
+END
+SoundEffect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/SoundEffect.cs
+END
+AudioListener.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/AudioListener.cs
+END
+AudioEngine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/AudioEngine.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/Enums.cs
+END
+InstancePlayLimitException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Audio/InstancePlayLimitException.cs
+END
+RendererDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/RendererDetail.cs
+END
+SoundEffectInstance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Audio/SoundEffectInstance.cs
+END

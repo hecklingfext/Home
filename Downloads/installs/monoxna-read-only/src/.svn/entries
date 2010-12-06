@@ -1,0 +1,58 @@
+10
+
+dir
+302
+http://monoxna.googlecode.com/svn/trunk/src
+http://monoxna.googlecode.com/svn
+
+
+
+2010-03-06T17:52:24.501645Z
+297
+timpambor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0d1dca7f-3429-0410-b39c-edaab0c29397
+
+fbxinterface
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline.FBXImporter
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline.TextureImporter
+dir
+
+Microsoft.Xna.Framework
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline.AudioImporters
+dir
+
+Microsoft.Xna.Framework.Content.Pipeline.XImporter
+dir
+
+MonoDevelop.Xna
+dir
+
+Microsoft.Xna.Framework.Game
+dir
+

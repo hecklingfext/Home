@@ -1,0 +1,101 @@
+.TH 3ddesk "1" "June 2005" "3ddesk" "User Commands"
+.SH NAME
+3ddesk - activates 3D-Desktop, a 3D desktop switcher.
+.SH SYNOPSIS
+3ddesk [ OPTIONS ]
+.SH DESCRIPTION
+3D Desktop is an OpenGL program for switching virtual desktops in a
+seamless 3-dimensional manner.  The default "visualization" maps your
+screen onto an N-sided "carousel" which is rotated to select the next
+screen.  When activated the current desktop appears to zoom out so as to
+make your desktop appear to be actually in a 3d environment with your
+other desktops.
+.SH OPTIONS
+Activates the 3D Desktop.  3ddeskd daemon must be running.
+Where OPTIONS are:
+.TP
+\fB\-\-view\fR=\fIxxx\fR
+Uses the options from the view in 3ddesktop.conf
+.TP
+\fB\-\-mode\fR=\fIxxx\fR
+Sets the arrangement mode (one of carousel (default), cylinder, linear, 
+viewmaster, priceisright, flip, or random).
+.TP
+\fB\-\-acquire[=\fR#]
+Grab images for all the desktops by cycling thru
+(sleep for x millisecs at each screen for refresh)
+.TP
+\fB\-\-acquirecurrent\fR
+Grab image for current desktop
+.TP
+\fB\-\-nozoom\fR
+Disable the zoom out
+.TP
+\fB\-\-changespeed\fR
+How fast the rotation or sliding of faces takes. Default is 40, must be 
+between 1 and 300.
+.TP
+\fB\-\-zoomspeed\fR
+How fast it zooms in an out. Default is 45, must be between 1 and 300.
+.TP
+\fB\-\-gotoright\fR
+Goto the desktop to the right
+.TP
+\fB\-\-gotoleft\fR
+Goto the desktop to the left
+.TP
+\fB\-\-gotoup\fR
+Goto the desktop to the up
+.TP
+\fB\-\-gotodown\fR
+Goto the desktop to the down
+.TP
+\fB\-\-goto=\fR#
+Goto specified column (deprecated, use \-\-gotocolumn)
+.TP
+\fB\-\-gotocolumn=\fR#
+Goto specified column
+.TP
+\fB\-\-gotorow=\fR#
+Goto specified row
+.TP
+\fB\-\-dontexit\fR
+Don't exit after a goto
+.TP
+\fB\-\-stop\fR
+Stop 3ddesktop (kill 3ddeskd daemon)
+.TP
+\fB\-\-reload\fR
+Force a reload of 3ddesktop.conf
+.TP
+\fB\-\-noautofun\fR
+Disable Fun Mode
+.TP
+\fB\-\-revmousewheel\fR
+Reverse the mousewheel
+.TP
+\fB\-\-swapmousebuttons\fR
+Swap left and right buttons on the mouse
+.TP
+\fB\-\-altmousebuttons\fR
+Use alternate mousebuttons scheme:
+Button 1 activates, 2 goes back and exits, 3 goes back, 6 goes left, 7 goes right.
+.TP
+\fB\-\-version\fR
+Output version information and exit
+
+.SH SETUP
+3ddesk \-\-acquire
+.PP
+This starts the 3ddeskd server and acquires an image of each of your
+virtual desktops.  It will cycle through each desktop and return to your
+current.
+.SH USAGE
+Bind a key combination to \fB/usr/bin/3ddesk\fR and press the bound key.
+This will bring you into a 3d environment where you choose your next
+desktop.  If the server hasn't been started it will try to start it.
+.SH FILES
+/etc/3ddesktop/3ddesktop.conf
+.SH AUTHOR
+Brad Wasson
+bard at wassonartistry.com

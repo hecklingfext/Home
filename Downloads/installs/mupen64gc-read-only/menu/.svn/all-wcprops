@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/963/trunk/menu
+END
+FileBrowserFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/962/trunk/menu/FileBrowserFrame.cpp
+END
+MenuTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/887/trunk/menu/MenuTypes.h
+END
+MainFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/962/trunk/menu/MainFrame.cpp
+END
+SelectCPUFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/887/trunk/menu/SelectCPUFrame.cpp
+END
+FileBrowserFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/887/trunk/menu/FileBrowserFrame.h
+END
+SaveGameFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/887/trunk/menu/SaveGameFrame.cpp
+END
+MainFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/887/trunk/menu/MainFrame.h
+END
+MenuResources.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/911/trunk/menu/MenuResources.h
+END
+SelectCPUFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/887/trunk/menu/SelectCPUFrame.h
+END
+LoadRomFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/887/trunk/menu/LoadRomFrame.cpp
+END
+SaveGameFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/887/trunk/menu/SaveGameFrame.h
+END
+LoadSaveFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/887/trunk/menu/LoadSaveFrame.cpp
+END
+MenuContext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/887/trunk/menu/MenuContext.cpp
+END
+SettingsFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/962/trunk/menu/SettingsFrame.cpp
+END
+ConfigurePaksFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/913/trunk/menu/ConfigurePaksFrame.cpp
+END
+CurrentRomFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/962/trunk/menu/CurrentRomFrame.cpp
+END
+ConfigureInputFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/887/trunk/menu/ConfigureInputFrame.cpp
+END
+LoadRomFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/887/trunk/menu/LoadRomFrame.h
+END
+MenuContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/887/trunk/menu/MenuContext.h
+END
+LoadSaveFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/887/trunk/menu/LoadSaveFrame.h
+END
+MenuResources.s
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/963/trunk/menu/MenuResources.s
+END
+ConfigurePaksFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/887/trunk/menu/ConfigurePaksFrame.h
+END
+CurrentRomFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/887/trunk/menu/CurrentRomFrame.h
+END
+SettingsFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/887/trunk/menu/SettingsFrame.h
+END
+ConfigureInputFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/887/trunk/menu/ConfigureInputFrame.h
+END

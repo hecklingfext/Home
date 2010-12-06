@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media
+END
+Picture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Picture.cs
+END
+AlbumCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework/Media/AlbumCollection.cs
+END
+GenreCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/GenreCollection.cs
+END
+PlaylistCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/PlaylistCollection.cs
+END
+IMediaLibrary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media/IMediaLibrary.cs
+END
+ArtistCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/ArtistCollection.cs
+END
+SongCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework/Media/SongCollection.cs
+END
+VideoPlayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/VideoPlayer.cs
+END
+MediaQueue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media/MediaQueue.cs
+END
+PictureCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/PictureCollection.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Enums.cs
+END
+VisualizationData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/VisualizationData.cs
+END
+PictureAlbum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/PictureAlbum.cs
+END
+MediaPlayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media/MediaPlayer.cs
+END
+Album.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework/Media/Album.cs
+END
+Genre.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Genre.cs
+END
+MediaSource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media/MediaSource.cs
+END
+Playlist.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Playlist.cs
+END
+MediaLibrary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework/Media/MediaLibrary.cs
+END
+Video.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Video.cs
+END
+Song.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Media/Song.cs
+END
+Artist.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/Artist.cs
+END
+PictureAlbumCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Media/PictureAlbumCollection.cs
+END

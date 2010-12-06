@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=
+Encoding=UTF-8
+Exec=3ddesk --view=linear
+Icon=
+MimeType=
+Name[en_US]=05 - Linear
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

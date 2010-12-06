@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=
+Encoding=UTF-8
+Exec=3ddesk --view=cylinder1
+Icon=
+MimeType=
+Name[en_US]=03 - Cylinder1 (Normal)
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

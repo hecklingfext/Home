@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/853/trunk/libgui/resources
+END
+ButtonASelOnFoc.tx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonASelOnFoc.tx
+END
+CursorPoint.tx
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/777/trunk/libgui/resources/CursorPoint.tx
+END
+CursorGrab.tx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/777/trunk/libgui/resources/CursorGrab.tx
+END
+Button.tx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/777/trunk/libgui/resources/Button.tx
+END
+ButtonFocus.tx
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/777/trunk/libgui/resources/ButtonFocus.tx
+END
+ButtonASelOff.tx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonASelOff.tx
+END
+ButtonA.tx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonA.tx
+END
+ButtonASelOn.tx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonASelOn.tx
+END
+ButtonASelOffFoc.tx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonASelOffFoc.tx
+END
+ButtonAFoc.tx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonAFoc.tx
+END
+ButtonA.tlt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/853/trunk/libgui/resources/ButtonA.tlt
+END

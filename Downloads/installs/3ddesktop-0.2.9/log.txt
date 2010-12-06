@@ -1,0 +1,5 @@
+make  all-am
+make[1]: Entering directory `/home/awross/Downloads/3ddesktop-0.2.9'
+if g++ -DHAVE_CONFIG_H -I. -I. -I.    -Wall -O3 -DQT_CLEAN_NAMESPACE -DSHAREDIR=\"/usr/local/share/3ddesktop\" -DSYSCONFDIR=\"/usr/local/etc\"   -g -O2  -MT 3ddeskd.o -MD -MP -MF ".deps/3ddeskd.Tpo" -c -o 3ddeskd.o 3ddeskd.cpp; \
+	then mv -f ".deps/3ddeskd.Tpo" ".deps/3ddeskd.Po"; else rm -f ".deps/3ddeskd.Tpo"; exit 1; fi
+make[1]: Leaving directory `/home/awross/Downloads/3ddesktop-0.2.9'

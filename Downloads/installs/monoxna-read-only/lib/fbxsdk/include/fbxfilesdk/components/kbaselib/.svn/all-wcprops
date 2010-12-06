@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib
+END
+kaydaradef.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kaydaradef.h
+END
+kaydara.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kaydara.h
+END
+kbaselib_forward.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kbaselib_forward.h
+END
+kaydaradef_h.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kaydaradef_h.h
+END
+isocpp_conformant.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/isocpp_conformant.h
+END
+kbaselib_h.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kbaselib_h.h
+END

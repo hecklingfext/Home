@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-07 21:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/interface.c:67
+msgid "gsetroot"
+msgstr ""
+
+#: src/interface.c:112
+msgid "Open"
+msgstr ""
+
+#: src/interface.c:133
+msgid "Preview"
+msgstr ""
+
+#: src/interface.c:137
+msgid "File :"
+msgstr ""
+
+#: src/interface.c:159
+msgid "Apply"
+msgstr ""
+
+#: src/interface.c:180
+msgid "Infos"
+msgstr ""
+
+#: src/interface.c:184
+msgid "Center"
+msgstr ""
+
+#: src/interface.c:191
+msgid "Mosaic"
+msgstr ""
+
+#: src/interface.c:198
+msgid "Current screen size"
+msgstr ""
+
+#: src/interface.c:222
+msgid "window1"
+msgstr ""
+
+#: src/callbacks.c:141
+msgid "infos"
+msgstr ""
+
+#: src/callbacks.c:150
+msgid "gsetroot is a gtk-based front-end for Esetroot "
+msgstr ""
+
+#: src/callbacks.c:155
+msgid "Use it under FluxBox, Enlightenment, WindowMaker,"
+msgstr ""
+
+#: src/callbacks.c:160
+msgid "NextStep, BlackBox, and others WM"
+msgstr ""
+
+#: src/callbacks.c:165
+msgid "------------------------------------"
+msgstr ""
+
+#: src/callbacks.c:170
+msgid "nolius@users.sourceforge.net"
+msgstr ""
+
+#: src/callbacks.c:175
+msgid "By Lounis Bellabes"
+msgstr ""

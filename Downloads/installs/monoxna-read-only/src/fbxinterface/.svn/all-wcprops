@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/176/trunk/src/fbxinterface
+END
+Animation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/159/trunk/src/fbxinterface/Animation.cpp
+END
+FbxInterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/159/trunk/src/fbxinterface/FbxInterface.cpp
+END
+Item.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/159/trunk/src/fbxinterface/Item.h
+END
+AnimationKeyFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/159/trunk/src/fbxinterface/AnimationKeyFrame.cpp
+END
+Matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/159/trunk/src/fbxinterface/Matrix.cpp
+END
+Animation.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/159/trunk/src/fbxinterface/Animation.h
+END
+Node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/159/trunk/src/fbxinterface/Node.cpp
+END
+FbxInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/159/trunk/src/fbxinterface/FbxInterface.h
+END
+AnimationChannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/159/trunk/src/fbxinterface/AnimationChannel.cpp
+END
+AnimationKeyFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/159/trunk/src/fbxinterface/AnimationKeyFrame.h
+END
+Matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/159/trunk/src/fbxinterface/Matrix.h
+END
+Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/159/trunk/src/fbxinterface/Node.h
+END
+fbxinterface.cproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/176/trunk/src/fbxinterface/fbxinterface.cproj
+END
+AnimationChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/159/trunk/src/fbxinterface/AnimationChannel.h
+END

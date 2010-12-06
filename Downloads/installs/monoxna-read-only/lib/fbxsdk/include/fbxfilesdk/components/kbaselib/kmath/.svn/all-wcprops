@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath
+END
+maths.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath/maths.h
+END
+kgeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath/kgeom.h
+END
+kmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath/kmath.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath/types.h
+END
+const.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/kmath/const.h
+END

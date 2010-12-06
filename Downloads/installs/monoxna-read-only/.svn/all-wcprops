@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/297/trunk
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/57/trunk/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/2/trunk/TODO
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/ChangeLog
+END
+Mono.Xna.sln
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/296/trunk/Mono.Xna.sln
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/COPYING
+END
+fbxinterface.sln
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/159/trunk/fbxinterface.sln
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/2/trunk/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/2/trunk/README
+END
+Tests.nunit
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/285/trunk/Tests.nunit
+END

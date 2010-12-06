@@ -1,0 +1,14 @@
+Author: Steve Cooper <stevencooper@isomedia.com>
+
+
+Thanks to:
+
+John Kennis <jkennis@chello.nl>
+    Author of bbpager, the basis of fluxspace.
+
+Brad Hughes  <bhughes@tcac.net>
+	For writing the Blackbox Windowmanager (and with this a great deal 
+	of the code for this application).
+
+Nat Friedman with modifications by Gerald Britton
+    For the Esetroot code used for displaying wallpaper

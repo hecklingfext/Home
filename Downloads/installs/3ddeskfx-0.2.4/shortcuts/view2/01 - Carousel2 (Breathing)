@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=
+Encoding=UTF-8
+Exec=3ddesk --view=carousel2
+Icon=
+MimeType=
+Name[en_US]=01 - Carousel2 (Breathing)
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

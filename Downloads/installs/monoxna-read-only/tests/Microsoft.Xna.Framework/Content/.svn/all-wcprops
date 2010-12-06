@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/166/trunk/tests/Microsoft.Xna.Framework/Content
+END
+ContentSerializerAttributeTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/tests/Microsoft.Xna.Framework/Content/ContentSerializerAttributeTests.cs
+END
+ContentTypeReaderTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/tests/Microsoft.Xna.Framework/Content/ContentTypeReaderTests.cs
+END
+ContentManagerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/166/trunk/tests/Microsoft.Xna.Framework/Content/ContentManagerTests.cs
+END

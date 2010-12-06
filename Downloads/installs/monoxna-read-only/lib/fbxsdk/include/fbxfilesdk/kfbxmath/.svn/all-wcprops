@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath
+END
+kfbxvector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxvector2.h
+END
+kfbxmatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxmatrix.h
+END
+kfbxquaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxquaternion.h
+END
+kfbxtransformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxtransformation.h
+END
+kfbxvector4.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxvector4.h
+END
+kfbxxmatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/kfbxmath/kfbxxmatrix.h
+END

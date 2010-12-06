@@ -1,0 +1,2 @@
+#!/bin/sh
+HOME=`pwd` ./fluxspace -v $@

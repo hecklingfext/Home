@@ -1,0 +1,647 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/297/trunk/src/Microsoft.Xna.Framework/Graphics
+END
+DynamicVertexBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/DynamicVertexBuffer.cs
+END
+Color.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/Color.cs
+END
+PixelShaderCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/PixelShaderCaps.cs
+END
+ModelMeshPartCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelMeshPartCollection.cs
+END
+RenderState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/RenderState.cs
+END
+CompiledShader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/CompiledShader.cs
+END
+TextureUsage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/154/trunk/src/Microsoft.Xna.Framework/Graphics/TextureUsage.cs
+END
+EffectPool.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectPool.cs
+END
+Texture2D.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/208/trunk/src/Microsoft.Xna.Framework/Graphics/Texture2D.cs
+END
+RenderTarget.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/252/trunk/src/Microsoft.Xna.Framework/Graphics/RenderTarget.cs
+END
+Texture3D.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/252/trunk/src/Microsoft.Xna.Framework/Graphics/Texture3D.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/253/trunk/src/Microsoft.Xna.Framework/Graphics/Enums.cs
+END
+ModelEffectCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelEffectCollection.cs
+END
+ModelMeshCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelMeshCollection.cs
+END
+GraphicsDeviceCapabilities.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/GraphicsDeviceCapabilities.cs
+END
+VertexPositionNormalTexture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexPositionNormalTexture.cs
+END
+Effect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/Effect.cs
+END
+AddressCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/123/trunk/src/Microsoft.Xna.Framework/Graphics/AddressCaps.cs
+END
+TextureCube.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/252/trunk/src/Microsoft.Xna.Framework/Graphics/TextureCube.cs
+END
+EffectPassCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectPassCollection.cs
+END
+ShaderCompiler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShaderCompiler.cs
+END
+ModelMeshPart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelMeshPart.cs
+END
+VertexShader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexShader.cs
+END
+DeviceNotSupportedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeviceNotSupportedException.cs
+END
+DeviceCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeviceCaps.cs
+END
+ClipPlane.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ClipPlane.cs
+END
+SpriteBatch.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/241/trunk/src/Microsoft.Xna.Framework/Graphics/SpriteBatch.cs
+END
+EffectParameterBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectParameterBlock.cs
+END
+VertexShaderCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexShaderCaps.cs
+END
+PrimitiveCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/PrimitiveCaps.cs
+END
+ModelBoneCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/84/trunk/src/Microsoft.Xna.Framework/Graphics/ModelBoneCollection.cs
+END
+DeviceLostException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeviceLostException.cs
+END
+ShadingCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShadingCaps.cs
+END
+DisplayModeCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/57/trunk/src/Microsoft.Xna.Framework/Graphics/DisplayModeCollection.cs
+END
+VertexElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/VertexElement.cs
+END
+VertexStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexStream.cs
+END
+BlendCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/141/trunk/src/Microsoft.Xna.Framework/Graphics/BlendCaps.cs
+END
+EffectParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/EffectParameter.cs
+END
+ResourceCreatedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ResourceCreatedEventArgs.cs
+END
+PresentationParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/193/trunk/src/Microsoft.Xna.Framework/Graphics/PresentationParameters.cs
+END
+VertexPositionColor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/VertexPositionColor.cs
+END
+GraphicsAdapter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/252/trunk/src/Microsoft.Xna.Framework/Graphics/GraphicsAdapter.cs
+END
+ModelBone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelBone.cs
+END
+RasterCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/RasterCaps.cs
+END
+GraphicsResource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/GraphicsResource.cs
+END
+DisplayMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/217/trunk/src/Microsoft.Xna.Framework/Graphics/DisplayMode.cs
+END
+Compiler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/Compiler.cs
+END
+TextureCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/TextureCollection.cs
+END
+RenderTarget2D.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/RenderTarget2D.cs
+END
+GraphicsDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/297/trunk/src/Microsoft.Xna.Framework/Graphics/GraphicsDevice.cs
+END
+SamplerStateCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/SamplerStateCollection.cs
+END
+ClipPlaneCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ClipPlaneCollection.cs
+END
+VertexPositionTexture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/141/trunk/src/Microsoft.Xna.Framework/Graphics/VertexPositionTexture.cs
+END
+RenderTargetCube.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/RenderTargetCube.cs
+END
+EffectAnnotation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/EffectAnnotation.cs
+END
+BasicDirectionalLight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/BasicDirectionalLight.cs
+END
+ShaderConstantTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShaderConstantTable.cs
+END
+ResourceDestroyedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ResourceDestroyedEventArgs.cs
+END
+ShaderSemantic.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShaderSemantic.cs
+END
+StateBlock.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/StateBlock.cs
+END
+ShaderConstantCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShaderConstantCollection.cs
+END
+SpriteFont.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/241/trunk/src/Microsoft.Xna.Framework/Graphics/SpriteFont.cs
+END
+Texture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/Texture.cs
+END
+GammaRamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/GammaRamp.cs
+END
+DriverCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DriverCaps.cs
+END
+DeviceStillDrawingException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeviceStillDrawingException.cs
+END
+DeviceNotResetException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeviceNotResetException.cs
+END
+RasterStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/RasterStatus.cs
+END
+SamplerState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/SamplerState.cs
+END
+VertexStreamCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexStreamCollection.cs
+END
+TextureInformation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/TextureInformation.cs
+END
+Sprite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/214/trunk/src/Microsoft.Xna.Framework/Graphics/Sprite.cs
+END
+DynamicIndexBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/253/trunk/src/Microsoft.Xna.Framework/Graphics/DynamicIndexBuffer.cs
+END
+TextureCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/TextureCaps.cs
+END
+StencilCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/StencilCaps.cs
+END
+CompiledEffect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/CompiledEffect.cs
+END
+IGraphicsDeviceService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/IGraphicsDeviceService.cs
+END
+ModelMesh.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/ModelMesh.cs
+END
+EffectTechniqueCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectTechniqueCollection.cs
+END
+EffectFunctionCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectFunctionCollection.cs
+END
+Viewport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/272/trunk/src/Microsoft.Xna.Framework/Graphics/Viewport.cs
+END
+DepthStencilBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/DepthStencilBuffer.cs
+END
+ShaderConstant.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/ShaderConstant.cs
+END
+DriverInternalErrorException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DriverInternalErrorException.cs
+END
+VertexProcessingCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexProcessingCaps.cs
+END
+VertexPositionColorTexture.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexPositionColorTexture.cs
+END
+VertexDeclaration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/VertexDeclaration.cs
+END
+EffectPass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectPass.cs
+END
+CursorCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/CursorCaps.cs
+END
+ResolveTexture2D.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/ResolveTexture2D.cs
+END
+GraphicsDeviceCreationParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/GraphicsDeviceCreationParameters.cs
+END
+OutOfVideoMemoryException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/OutOfVideoMemoryException.cs
+END
+FilterCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/FilterCaps.cs
+END
+VertexFormatCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/VertexFormatCaps.cs
+END
+CompareCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/141/trunk/src/Microsoft.Xna.Framework/Graphics/CompareCaps.cs
+END
+LineCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/LineCaps.cs
+END
+DeclarationTypeCaps.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/DeclarationTypeCaps.cs
+END
+BasicEffect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/BasicEffect.cs
+END
+Model.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Graphics/Model.cs
+END
+IndexBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/254/trunk/src/Microsoft.Xna.Framework/Graphics/IndexBuffer.cs
+END
+CompilationFailedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/CompilationFailedException.cs
+END
+EffectFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectFunction.cs
+END
+EffectTechnique.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/EffectTechnique.cs
+END
+EffectAnnotationCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/296/trunk/src/Microsoft.Xna.Framework/Graphics/EffectAnnotationCollection.cs
+END
+VertexBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/254/trunk/src/Microsoft.Xna.Framework/Graphics/VertexBuffer.cs
+END
+PixelShader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/Microsoft.Xna.Framework/Graphics/PixelShader.cs
+END
+TextureCreationParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/252/trunk/src/Microsoft.Xna.Framework/Graphics/TextureCreationParameters.cs
+END

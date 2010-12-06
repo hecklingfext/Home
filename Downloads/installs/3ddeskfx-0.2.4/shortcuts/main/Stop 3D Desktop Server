@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=
+Encoding=UTF-8
+Exec=3ddesk --stop
+Icon=
+MimeType=
+Name[en_US]=Stop 3D Desktop Server
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

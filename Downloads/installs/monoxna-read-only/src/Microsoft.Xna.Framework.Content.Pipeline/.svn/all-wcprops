@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/291/trunk/src/Microsoft.Xna.Framework.Content.Pipeline
+END
+ContentProcessorContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentProcessorContext.cs
+END
+ContentImporterAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/291/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentImporterAttribute.cs
+END
+ProcessorParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ProcessorParameter.cs
+END
+XmlImporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/291/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/XmlImporter.cs
+END
+IContentProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/260/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/IContentProcessor.cs
+END
+ContentIdentity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentIdentity.cs
+END
+PipelineException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/PipelineException.cs
+END
+ContentItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentItem.cs
+END
+ContentBuildLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/289/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentBuildLogger.cs
+END
+FontDescriptionImporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/FontDescriptionImporter.cs
+END
+ContentImporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentImporter.cs
+END
+ProcessorParameterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ProcessorParameterCollection.cs
+END
+ContentProcessorAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentProcessorAttribute.cs
+END
+Microsoft.Xna.Framework.Content.Pipeline.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/289/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/Microsoft.Xna.Framework.Content.Pipeline.csproj
+END
+ChildCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ChildCollection.cs
+END
+InvalidContentException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/InvalidContentException.cs
+END
+ContentImporterContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/291/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentImporterContext.cs
+END
+ExternalReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ExternalReference.cs
+END
+VideoContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/VideoContent.cs
+END
+PipelineComponentScanner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/PipelineComponentScanner.cs
+END
+IContentImporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/116/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/IContentImporter.cs
+END
+xna.pub
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/xna.pub
+END
+NamedValueDictionary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/NamedValueDictionary.cs
+END
+OpaqueDataDictionary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/257/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/OpaqueDataDictionary.cs
+END
+ContentProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/285/trunk/src/Microsoft.Xna.Framework.Content.Pipeline/ContentProcessor.cs
+END

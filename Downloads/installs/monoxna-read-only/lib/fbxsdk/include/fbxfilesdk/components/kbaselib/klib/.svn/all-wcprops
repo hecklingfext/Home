@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib
+END
+itype.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/itype.h
+END
+karrayul.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/karrayul.h
+END
+kcharptrset.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kcharptrset.h
+END
+kname.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kname.h
+END
+kdynamicarray.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kdynamicarray.h
+END
+krenamingstrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/krenamingstrategy.h
+END
+kintrusivelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kintrusivelist.h
+END
+t-str-macosx.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/t-str-macosx.h
+END
+kdebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kdebug.h
+END
+kerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kerror.h
+END
+kset.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kset.h
+END
+kpair.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kpair.h
+END
+t-str-linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/t-str-linux.h
+END
+ktime.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/ktime.h
+END
+t-str.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/t-str.h
+END
+t-str-win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/t-str-win32.h
+END
+kstringlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kstringlist.h
+END
+kscopedptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kscopedptr.h
+END
+ksystemtime.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/ksystemtime.h
+END
+kstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kstring.h
+END
+kcontainerallocators.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kcontainerallocators.h
+END
+t-str-irix.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/t-str-irix.h
+END
+kmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kmemory.h
+END
+kmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/159/trunk/lib/fbxsdk/include/fbxfilesdk/components/kbaselib/klib/kmap.h
+END

@@ -1,0 +1,24 @@
+= Pulg-in di Facebook =
+
+Il file .so allegato è una libreria che migliorerà la tua esperienza su Facebook, consentendoti ad esempio di caricare foto in modo più semplice.
+
+== Licenza ==
+
+Leggi il file LICENSE allegato per prendere conoscenza della licenza che regola il presente software e di altre informazioni importanti sui diversi progetti open-source attivati da questa libreria.
+
+== Requisiti ==
+
+Al momento supportiamo in via ufficiale solo Firefox 3.0 o superiore su Ubuntu >= 8.04 (non escludiamo tuttavia il funzionamento con molti altri browser, distribuzioni e configurazioni).
+
+== Installazione ==
+
+Per installare il plug-in è necessario copiare il file .so allegato nella cartella .mozilla/plugins nella directory home dell’utente. Ad esempio, se il tuo nome utente è "jzoidberg", il plug-in deve essere copiato in "/home/jzoidberg/.mozilla/plugins". Per semplificare l’installazione, abbiamo aggiunto uno script, "install.sh", che è possibile eseguire al posto di questa operazione piuttosto tecnica.
+
+Esempio:
+  $ ./install.sh
+
+== Informazioni tecniche ==
+
+Al momento, il plug-in di Facebook per Linux è distribuito come libreria a 32-bit per x86.  In futuro, è possibile che venga messa in circolazione una libreria a 64-bit, e forse anche delle librerie per altre architetture, ad esempio ARM o PPC.
+Se ti interessa una build per una piattaforma diversa, contattaci scrivendo all’indirizzo fbplugin@facebook.com.
+

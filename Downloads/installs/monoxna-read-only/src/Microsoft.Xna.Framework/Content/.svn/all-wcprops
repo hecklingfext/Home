@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Content
+END
+ContentSerializerIgnoreAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Content/ContentSerializerIgnoreAttribute.cs
+END
+ResourceContentManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/241/trunk/src/Microsoft.Xna.Framework/Content/ResourceContentManager.cs
+END
+ContentReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/251/trunk/src/Microsoft.Xna.Framework/Content/ContentReader.cs
+END
+ContentSerializerRuntimeTypeAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Content/ContentSerializerRuntimeTypeAttribute.cs
+END
+ContentTypeReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Content/ContentTypeReader.cs
+END
+ContentSerializerTypeVersionAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/250/trunk/src/Microsoft.Xna.Framework/Content/ContentSerializerTypeVersionAttribute.cs
+END
+ContentSerializerCollectionItemNameAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Content/ContentSerializerCollectionItemNameAttribute.cs
+END
+ContentManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/249/trunk/src/Microsoft.Xna.Framework/Content/ContentManager.cs
+END
+ContentSerializerAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Content/ContentSerializerAttribute.cs
+END
+ContentLoadException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/117/trunk/src/Microsoft.Xna.Framework/Content/ContentLoadException.cs
+END
+ContentTypeReaderManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/208/trunk/src/Microsoft.Xna.Framework/Content/ContentTypeReaderManager.cs
+END

@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 45
+bin
+obj
+XnaTests.csproj
+XnaTests.csproj.user
+
+END

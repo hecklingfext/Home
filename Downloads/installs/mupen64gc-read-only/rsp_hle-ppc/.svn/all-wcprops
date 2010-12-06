@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/429/trunk/rsp_hle-ppc
+END
+ucode1.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/429/trunk/rsp_hle-ppc/ucode1.c
+END
+disasm.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/67/trunk/rsp_hle-ppc/disasm.c
+END
+ucode2.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/429/trunk/rsp_hle-ppc/ucode2.c
+END
+ucode3.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/429/trunk/rsp_hle-ppc/ucode3.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/357/trunk/rsp_hle-ppc/main.c
+END
+jpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/129/trunk/rsp_hle-ppc/jpeg.c
+END
+wintypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/67/trunk/rsp_hle-ppc/wintypes.h
+END
+Audio_#1.1.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/67/trunk/rsp_hle-ppc/Audio_%231.1.h
+END
+RSPPlugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/67/trunk/rsp_hle-ppc/RSPPlugin.h
+END
+Rsp_#1.1.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/67/trunk/rsp_hle-ppc/Rsp_%231.1.h
+END
+hle.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/357/trunk/rsp_hle-ppc/hle.h
+END

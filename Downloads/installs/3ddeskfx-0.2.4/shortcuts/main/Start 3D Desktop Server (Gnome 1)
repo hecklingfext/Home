@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=Start 3D Desktop Server (Gnome 1)
+Encoding=UTF-8
+Exec=3ddeskd --acquire --workspaces
+Icon=
+MimeType=
+Name[en_US]=Start 3D Desktop Server (Gnome 1)
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

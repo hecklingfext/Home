@@ -1,0 +1,51 @@
+
+3d-Desktop
+----------
+
+3d Desktop is a OpenGL program for switching virtual desktops in
+a seamless 3-dimensional manner.  The default "visualization" maps
+your screen onto an N-sided "carousel" which is rotated to select the
+next screen.  When activated the current desktop appears to zoom out
+so as to make your desktop appear to be actually in a 3d environment
+with your other desktops.
+
+The latest version of 3d-Desktop can be obtained from:
+
+   http://desk3d.sourceforge.net/
+
+Requirements
+------------
+  OpenGL/Mesa (Hardware acceleration is required)
+  GLX
+  XF86VidMode extensions
+  Imlib2
+  (The -devel components are necessary for compilation)
+
+
+Installation
+------------
+
+    tar zxvf 3ddesktop-x.y.z.tar.gz
+    ./configure
+    make
+    make install
+
+Setup
+-----
+
+    3ddesk --acquire
+
+This starts the 3ddeskd server and acquires an image of each of your
+virtual desktops.  It will cycle through each desktop and return to
+your current.
+
+
+Running
+-------
+
+    bind a key combination to "/usr/bin/3ddesk"
+
+    press the keys and BINGO!  3D sweetness :)
+
+
+See the README for more info!

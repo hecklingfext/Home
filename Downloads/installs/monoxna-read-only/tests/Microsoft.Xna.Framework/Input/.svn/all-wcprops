@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/229/trunk/tests/Microsoft.Xna.Framework/Input
+END
+GamePadTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/78/trunk/tests/Microsoft.Xna.Framework/Input/GamePadTests.cs
+END
+GamePadThumbSticksTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/tests/Microsoft.Xna.Framework/Input/GamePadThumbSticksTests.cs
+END
+GamePadEnumsTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/229/trunk/tests/Microsoft.Xna.Framework/Input/GamePadEnumsTests.cs
+END
+GamePadDPadTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/78/trunk/tests/Microsoft.Xna.Framework/Input/GamePadDPadTests.cs
+END

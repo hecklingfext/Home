@@ -1,0 +1,66 @@
+.TH 3ddeskd "1" "June 2005" "3ddeskd" "User Commands"
+.SH NAME
+3ddeskd - starts the daemon for 3D-Desktop, a 3D desktop switcher.
+.SH SYNOPSIS
+3ddeskd [ OPTIONS ]
+.SH DESCRIPTION
+This is the server for 3ddesk.  3ddeskd runs at all times to reduce load
+time and maintain a persistent state.  In order for 3ddesk to work the
+server needs to be running in the background before you can go 3D.  Just
+run "3ddeskd" to start it.  Give the \-\-acquire option to acquire cached
+versions of all your desktops.  It will cycle thru all your
+desktops/workspaces.  3ddesk activates the server and gives you a
+fullscreen.
+.PP
+You only need to start 3ddeskd once.  If you run 3ddesk and it sees the
+server isn't started it will attempt to start it for you.
+.PP
+When you start 3ddesktop without \-\-acquire you will not see the images
+of your other desktops.  It can only take a snapshot of your current
+desktop -- so either it must acquire them initially by cycling through
+all of them or they will not show up until you move from them using
+3ddesktop.  Your other virtual desktops \fBwill\fR show up but only
+\fBafter\fR you've been to them.
+.PP
+The texture for the current desktop is acquired when you start 3ddesk so
+once you start 3ddesk from each virtual desktop your screens will all
+show up.  They will only stay consistent if you only use 3ddesk to
+switch desktops (if you don't use another pager).  Mess around with it
+and you will see how it works.
+.SH OPTIONS
+\fB3ddeskd\fR accepts the following options:
+.TP
+\fB\-\-acquire[=\fR#]
+Grab images for all the desktops by cycling thru
+(sleep for # millisecs at each screen for refresh)
+.TP
+\fB\-\-mirror
+Mirror the current desktop image to all the other desktop faces.  This
+is a clever alternative to acquire.
+.TP
+\fB\-\-dir=\fR/path
+The install dir if different than /usr/share/3ddesktop
+.TP
+\fB\-\-wm=\fR
+Specify the Windowmanager type so all the virtual desktops are found correctly.
+Available options are: kde2, kde3, gnome1, gnome2, ewmh, fluxbox, windowmaker,
+enlightenment, sawfishonly, workspaces
+.TP
+\fB\-\-texturesize=\fR#
+Size of texture for the desktop images (larger for more detail) in powers of 2. Default is 1024,
+values from 16 to 2048 are accepted.
+.TP
+\fB\-\-fastest\fR
+Hog the CPU for smoothest operation
+.TP
+\fB\-v\fR
+Verbose/debug information
+.TP
+\fB\-\-version\fR
+Output version information and exit
+
+.SH FILES
+/etc/3ddesktop/3ddesktop.conf
+.SH AUTHOR
+Brad Wasson
+bard at wassartistry.com

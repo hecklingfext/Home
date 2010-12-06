@@ -1,0 +1,2 @@
+#define FLUXSPACE "fluxspace"
+#define FLUXSPACE_VERSION "@VERSION@"

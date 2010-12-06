@@ -1,0 +1,266 @@
+
+3d-Desktop
+----------
+
+3d Desktop is an OpenGL program for switching virtual desktops in
+a seamless 3-dimensional manner.  The default "visualization" maps
+your screen onto an N-sided "carousel" which is rotated to select the
+next screen.  When activated the current desktop appears to zoom out
+so as to make your desktop appear to be actually in a 3d environment
+with your other desktops.
+
+The latest version of 3d-Desktop can be found at:
+
+   http://desk3d.sourceforge.net/
+
+Requirements
+------------
+    OpenGL/Mesa (Hardware acceleration is required)
+    GLX
+    XF86VidMode extensions
+    Imlib2
+
+ For compilation:
+
+    XFree86-devel
+    imlib2-devel
+
+Installation
+------------
+
+    tar zxvf 3ddesktop-x.y.z.tar.gz
+    ./configure
+    make
+    make install
+
+Setup
+-----
+
+    3ddesk --acquire
+
+This starts the 3ddeskd server and acquires an image of each of your
+virtual desktops.  It will cycle through each desktop and return to
+your current desktop.
+
+
+Running
+-------
+
+    bind a key combination to "/usr/bin/3ddesk"
+
+    press the keys and BINGO!  3D sweetness :)
+
+
+This will bring you into a 3d environment where you choose your next
+desktop.  If the server hasn't been started it will try to start it.
+Also see "Starting the server manually" below.
+
+Add a global keybinding ("shortcut") via the window manager to run
+/usr/bin/3ddesk.  Something like F2 or whatever won't conflict with
+anything else.  When you press this key or key combination 3ddesk
+signals 3ddeskd to start up and it zooms out to show you the "3d
+visualization" of your desktops.  Then you select the screen you want
+to switch to by pressing enter or space.
+
+For some quick descriptions of how to add keybindings/shortcuts in 
+various window managers see "Keybindings" below.
+
+** If you aren't using GNOME or all your virtual desktops aren't found
+   see README.windowmanagers for more info.
+
+Starting the server manually
+----------------------------
+
+The server needs to be running in the background before you can go 3D.
+Just run "3ddeskd" to start it.  Give the --acquire option to acquire
+cached versions of all your desktops.  It will cycle thru all your
+desktops/workspaces.  3ddeskd runs at all times to reduce load time
+and maintain a persistent state.  3ddesk activates the server and
+gives you a fullscreen.  
+
+You only need to start 3ddeskd once!  If you run 3ddesk and it sees
+the server isn't started it will attempt to start it for you.
+
+
+
+**NOTE** When you start 3ddesktop without --acquire you will not see
+the images of your other desktops.  It can only take a snapshot of
+your current desktop -- so either it must acquire them initially by
+cycling through all of them or they will not show up until you move
+from them using 3ddesktop.  Your other virtual desktops *will* show up
+but only *after* you've been to them.
+
+The texture for the current desktop is acquired when you start 3ddesk
+so once you start 3ddesk from each virtual desktop your screens will
+all show up.  
+
+The server now periodically captures your current desktop in the
+background.  This can cause a performance hit so it can be turned off
+with the autoacquire option but it does help the images 3ddesktop uses
+stay consistent with what is actually on your desktop.
+
+
+
+Control
+-------
+KEYS:
+Left .................... left desktop
+Right ................... right desktop
+Down .................... desktop below
+Up ...................... desktop above
+1-9,0 ................... go to desktops 1 thru 10
+Enter,Space,Escape ...... choose current desktop
+F ....................... toggle random action after so long
+     
+MOUSE:
+Left button ............. left desktop
+Right button ............ right desktop
+Middle button ........... choose current desktop (column)
+Wheel down .............. left desktop
+Wheel up ................ right desktop
+
+
+
+Configuration File
+------------------
+
+The configuration file is an optional file in ~/.3ddesktop/ called
+3ddesktop.conf.  The example one provided is mostly self documenting.
+It can be found in the tarfile or is installed into /etc.  If you want
+to edit your own then copy from /etc to ~/.3ddesktop/.
+
+It's divided into sections called "views" which you specify on the
+3ddesk command line with the --view option.  They are for tailoring
+the look mostly.  The options for the default view can be specified
+with a view of name "default".
+
+If you edit stuff in 3ddesktop.conf you should not need to restart the
+server.  If you don't see your change check your spelling or try
+3ddesk --reload.
+
+
+
+Keybindings Howto
+-----------------
+
+In Gnome 1.4 with Sawfish you can add keybindings by going to the
+Gnome Control Center (gnomecc) --> Sawfish --> Shortcuts --> Add -->
+"Run Shell Command"
+
+The default window manager in Redhat 8.0/9.0 is Metacity and will
+allow you to bind a key combo to an arbitrary command but its a little
+tricky.
+
+Run "gconf-editor". Drill down to apps --> metacity -->
+global_keybindings. Find "run_command_1" and change it to your key
+such as "F12" or "<Control><Alt>S".  Then in apps --> metacity -->
+keybinding_commands find "command_1" and set it to "/usr/bin/3ddesk".
+
+In WindowMaker, open WPrefs, go to application editing menu, drag a
+submenu to applications menu, select sample commands, drag one of them
+to submenu, edit the command to the appropriate 3ddesk command and set
+the shortcut.
+
+
+Other random comments
+---------------------
+
+This is my first OpenGL program so I'm sure there are lots of things
+that aren't perfect or need work.  I'm open to any kind of feedback
+positive or otherwise.  Please let me know your thoughts by emailing 
+bard at systemtoolbox.com
+
+The desktop switching is done with code originally based off of STPH
+by Rob Hodges.  See http://stph.sourceforge.net/ for more info.
+Thanks Rob!  Support for all the different methods of desktop
+switching has been hacked in.  By default it will try EWMH then GNOME
+1.x viewports/areas then workspaces.
+
+For some fun try a command line option like: 
+   3ddesk --mode=linear --nozoom
+
+Or the example views like:
+   3ddesk --view=slide
+   3ddesk --view=linearzip
+   etc.
+
+Do 3ddesk --help for more command line options.
+
+There are several things that I know need work.  (See the TODO file)
+
+Some old comments that I am keeping around for a good laugh are below ;)
+
+I believe I've solved the load time by using Imlib2.  The biggest
+bottleneck to starting was not the actual capture of the screenshot
+but rather the scaling of the image to a size that is a power of two
+(required for textures).
+
+Anyway Imlib2 has wicked fast scaling so things are much faster now.
+I've also switched to a daemon architecture which won't require
+reloading of every texture every time (the opengl context stays
+active).  *Please* let me know if this is not working because I do
+some funny things with X and glX to make this work.
+
+I switched from using GLUT to using GLX and XF86VidMode extensions to
+fix some fullscreen problems.  The problem was that with
+glutFullScreen (and game mode) any gnome panels that were "autohide"
+would show up on top of 3ddesktop.  Additionally the window
+decorations in enlightenment were staying visible.  So by using GLX
+and XF86VidMode both these problems were solved.  In addition I was
+able to hide the mouse pointer.  If somebody can show me how to do
+this in GLUT I'd use glut.
+
+
+Aug 2002: 
+I rewrote and rearranged a lot of stuff to fix some major roadblocks
+to progress.  There is a nifty conf file now.  I'm still having
+trouble getting the background image capture to work well enough.
+Also having trouble changing the transparancy of the faces.  I can
+make them transparent but can't adjust the level of transparency.  Is
+this because the textures are RGB instead of RGBA?  (Hit 'b' to see
+transparency)
+
+May 2004:
+
+Been a while but finally released another version.  I've tried to make
+it easier to use.  All you have to do now to start it is run 3ddesk
+and it should start the server.  The server now periodically does a
+screen capture so even if you use other switchers/pagers your desktops
+should still stay mostly up to date.  I lowered the deamons priority
+to lessen the performance hit of this and it can be disabled.
+
+
+Please let me know if anything isn't working otherwise I won't know
+to fix it :)
+
+Brad Wasson
+bard at systemtoolbox.com
+
+
+
+
+
+Contributors
+------------
+Thomas Clausen
+Nathan Grennan
+Bryan Smith
+Andy Bakun
+Pedro Caria
+Artur Frysiak
+Antonio Larrosa
+Pawel Golaszewski 
+Olivier Samyn
+Marcelo Magallon
+Tilmann Bitterberg
+Eric Shattow
+Damjan Lango
+Robert Wittams
+Toph
+Gregory Kovriga
+Phil
+Colin Leroy
+Juan RP
+Mathias Weyland 
+
+Much thanks! (and let me know if I missed ya!)

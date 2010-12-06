@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment[en_US]=
+Encoding=UTF-8
+Exec=3ddeskfx mode
+Icon=khelpcenter
+MimeType=
+Name[en_US]=Random 3D-Desktop Generator (Mode)
+Path=
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
