@@ -1,8 +1,0 @@
-gsetroot is a gtk-based front-end for Esetroot. 
-use it to configure root window under a Window Manager like FluxBox, Enlightenment, WindowMaker, BlackBox...
-it's a free software under the GPL license.
-
-You need Esetroot. You can find the original Esetroot, as part of the Eterm package at the Eterm website.
-
-Lounis Bellabes
-nolius@users.sourceforge.net

@@ -1,1 +1,0 @@
-g++ setlayout.c -lX11

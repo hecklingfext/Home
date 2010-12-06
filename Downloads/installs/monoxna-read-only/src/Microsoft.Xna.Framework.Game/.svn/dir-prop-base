@@ -1,9 +1,0 @@
-K 10
-svn:ignore
-V 85
-bin
-Microsoft.Xna.Framework.Game.csproj
-Microsoft.Xna.Framework.Game.csproj.user
-obj
-
-END

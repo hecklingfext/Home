@@ -1,2 +1,0 @@
-#!/bin/sh
-xterm -geometry 100x50 -e gdb --pid=$1 -s ./lib/_fluxspacecore.so

@@ -1,9 +1,0 @@
-K 10
-svn:ignore
-V 75
-bin
-Microsoft.Xna.Framework.csproj
-Microsoft.Xna.Framework.csproj.user
-obj
-
-END

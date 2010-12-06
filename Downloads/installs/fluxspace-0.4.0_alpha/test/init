@@ -1,5 +1,0 @@
-session.styleFile: ~/.fluxbox/style
-session.menuFile: ~/.fluxbox/menu
-session.colorsPerChannel: 6
-screen0.imageDither: false
-screen0.antialias: true
