@@ -14,7 +14,7 @@
   [[default]]
     use_system_font = False
     alternate_screen_scroll = False
-    background_darkness = 0.9
+    background_darkness = 0.6
     audible_bell = True
     background_type = transparent
     scrollbar_position = hidden

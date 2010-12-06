@@ -65,7 +65,7 @@ endif
 imap <c-n> <esc>
 vmap <c-n> <esc>
 
-let mapleader = " "
+let mapleader = ","
 map <leader>tn :tabnew<cr>
 map <leader>u :VCSUpdate<cr>
 map <leader>w :w<cr>

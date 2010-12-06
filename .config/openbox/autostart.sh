@@ -2,10 +2,9 @@ gnome-screensaver &
 xcompmgr &
 nitrogen --restore &
 setlayout 1 3 3 1 &
-dropbox start &
+dropbox.py start &
 synergys &
-DISPLAY=:0.1 conky -c ~/.config/conky/conky-rings.rc &
-DISPLAY=:0.1 terminator -fb &
+#DISPLAY=:0.1 terminator &
 
 #bgswitch 0 &
 #sshfs vincent:/home/awross /vincent &
