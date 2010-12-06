@@ -1,0 +1,52 @@
+#!/bin/bash
+
+#The directory to store the backups in
+DESTDIR="/media/disk/back"
+
+#The name for the new directory
+NEWDIR=$(date '+%Y.%m.%d.%H.%M')
+
+#The name of the directory of the latest backup
+OLDDIR=$(ls $DESTDIR | tail -n1)
+
+#Folder to backup
+SOURCEDIR="/"
+
+#Folders to exclude from the backup
+EXCLUDES="--exclude=/lost+found --exclude=/tmp --exclude=/boot --exclude=/media --exclude=/sys --exclude=/proc --exclude=/dev --exclude=/mnt --exclude=/data --exclude=/video --exclude=/work"
+
+#cd to the backup folder
+cd $DESTDIR
+
+if [ -f $OLDDIR ]
+	then
+		#No backup has been found, we begin by simply creating a backup of the folder
+		echo "No initial backup found, creating a new one"
+		echo $SOURCEDIR "==>" $DESTDIR/$NEWDIR
+		rsync -axPv --delete $EXCLUDES $SOURCEDIR $DESTDIR/$NEWDIR
+else
+	#An old folder was found, copy it (using hard links rather than copying the data) to $NEWDIR
+	echo "Building incremental backup based on " $OLDDIR
+	cp -al $DESTDIR/$OLDDIR/ $DESTDIR/$NEWDIR
+	#rsync the source dir to the $NEWDIR, essentially overwriting the hardlinks of any changed files with actual data
+	rsync -axPv --delete $EXCLUDES $SOURCEDIR $DESTDIR/$NEWDIR
+fi
+
+# Create the structure for the virtual mountpoints
+mkdir $DESTDIR/$NEWDIR/tmp
+chmod 0775 $DESTDIR/$NEWDIR/tmp
+mkdir $DESTDIR/$NEWDIR/dev
+chmod 0775 $DESTDIR/$NEWDIR/dev
+mkdir $DESTDIR/$NEWDIR/mnt
+chmod 0775 $DESTDIR/$NEWDIR/mnt
+mkdir $DESTDIR/$NEWDIR/sys
+chmod 0775 $DESTDIR/$NEWDIR/sys
+mkdir $DESTDIR/$NEWDIR/proc
+chmod 0775 $DESTDIR/$NEWDIR/proc
+mkdir $DESTDIR/$NEWDIR/video
+chmod 0775 $DESTDIR/$NEWDIR/video
+mkdir $DESTDIR/$NEWDIR/data
+chmod 0775 $DESTDIR/$NEWDIR/data
+mkdir $DESTDIR/$NEWDIR/media
+chmod 0775 $DESTDIR/$NEWDIR/media
+ls /media/ | xargs -I'{}' mkdir $DESTDIR/$NEWDIR/media/{}
