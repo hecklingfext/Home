@@ -1,0 +1,17 @@
+#! /bin/bash
+
+STATUS=0
+WINCLASS=xbmc.bin.xbmc.bin
+DISPLAY=:0.1
+SLEEPDELAY=1
+
+
+/usr/bin/xbmc "$@" & 
+
+while [ $STATUS -eq 0 ]
+do
+  sleep $SLEEPDELAY
+  STATUS=`wmctrl -x -l | grep $WINCLASS | wc -l | awk '{print $1}'`
+done
+
+wmctrl -x -r $WINCLASS -b toggle,fullscreen
