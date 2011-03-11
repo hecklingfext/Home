@@ -4,6 +4,6 @@ sudo apt-get install alsa-utils alsamixergui aspell  aspell-en at  at-spi  axel 
 git config --global user.name "Andrew Ross"
 git config --global user.email "hecklingfext"
 git config --global github.user hecklingfext
-git config --global github.token c117b28325522931e7c9f021f1259fc8
+git config --global github.token ____________________
 
 git clone git@github.com:hecklingfext/Home.git
