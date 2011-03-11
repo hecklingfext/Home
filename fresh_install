@@ -1,3 +1,9 @@
 sudo apt-get install alsa-utils alsamixergui aspell  aspell-en at  at-spi  axel  beep  bitlbee  chromium-browser chromium-browser-inspector chromium-codecs-ffmpeg-extra chromium-codecs-ffmpeg-nonfree cli-common cmatrix  cron  elinks  espeak  evince  feh  flac  gcc git-core  gmrun  gparted irssi  lame  lirc  mc  mpc  mpd  ncmpcpp  nitrogen ntfs-3g  obconf  obmenu  openbox  openoffice.org openssh-client openssh-server openssl  parted  pcmanfm  remind  rsync  rtorrent samba  screen  smbfs  sshfs  subversion synergy  terminator vim  wget  xcompmgr zsh  
+
 #http://help.github.com/linux-key-setup/
+git config --global user.name "Andrew Ross"
+git config --global user.email "hecklingfext"
+git config --global github.user hecklingfext
+git config --global github.token c117b28325522931e7c9f021f1259fc8
+
 git clone git@github.com:hecklingfext/Home.git
