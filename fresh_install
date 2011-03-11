@@ -6,4 +6,7 @@ git config --global user.email "hecklingfext"
 git config --global github.user hecklingfext
 git config --global github.token ____________________
 
-git clone git@github.com:hecklingfext/Home.git
+cd ~/
+git init
+git remote add origin git@github.com:hecklingfext/Home.git
+git fetch github
